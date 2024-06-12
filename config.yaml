@@ -132,7 +132,7 @@ params:
     title: "Abel Ketema."
     subtitle: "I build things for the web"
     content: "From marathon finish lines to coding milestones 🏁💻. I'm all about pushing limits and achieving the impossible. #marathoncoder"
-    image: /images/abel.png.jpg
+    image: /Images/abel.png.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -156,14 +156,14 @@ params:
   # about:
     # enable: true
     # title: "The one"
-    # image: "/images/Abelpc.png"
+    # image: "/Images/Abelpc.png"
         
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/abel.png.jpg"
+    image: "/Images/abel.png.jpg"
     content: |-
       Dynamic and goal-driven professional with a robust track record of executing strategic 
       initiatives and elevating business operations.Boasting over 5+years of specialized experience

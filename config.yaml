@@ -1,7 +1,7 @@
 baseURL: "https://www.abelketema.com"
 languageCode: "en-us"
 title: "Abel Ketema"
-theme: hugo-profile
+theme: hugo-profile-new
 
 
 outputs:

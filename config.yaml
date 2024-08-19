@@ -127,12 +127,13 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Abel Ketema."
+    title: "Abel Ketema"
     subtitle: "I build things for the web"
-    content: "From marathon finish lines to coding milestones 🏁💻. I'm all about pushing limits and achieving the impossible. #marathoncoder"
-    # image: /Images/abel.png.jpg
+    content: "From marathon finish lines to coding milestones 🏁💻. I’m all about pushing limits and achieving the impossible. #marathoncoder"
+  
+    
     bottomImage:
-      enable: true
+     enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
@@ -144,9 +145,9 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/abeleth
-        # - icon: fab fa-x-twitter
-        #  url: https://example.com
-      # customIcons:
+        # - icon: fab fa-x-linkedin
+          # linkedin: https://www.linkedin.com/in/abel-ketema-contact-me/
+       # customIcons:
         # - icon: /fav.png
         # url: "https://example.com"  
   
@@ -268,9 +269,10 @@ params:
         date: "2024 - 2025"
         GPA: "3.8 out of 4.0"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Deployed containerized applications using Docker and Kubernetes.
+            - Implemented automated deployment pipelines, improving release cycles. 
+            - Managed cloud infrastructure security, including IAM policies and VPC configurations.
+            - Led the migration of on-premises infrastructure to [AWS/Azure/GCP].
       - title: "Management Information System"
         school:
           name: "New Mexico State University"
@@ -278,13 +280,12 @@ params:
         date: "2017 - 2020"
         GPA: "3.8 out of 4.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          - Designed and implemented scalable cloud architectures using [AWS/Azure/GCP]
+          - Automated cloud infrastructure provisioning using Terraform and Ansible.
+          - Managed CI/CD pipelines.
+          - Optimized cloud resource allocation.
+          - Monitored and troubleshooted cloud environments to ensure high availability and performance.
+          - Collaborated with development teams to integrate cloud services into applications.
         featuredLink:
           enable: true
           name: "My academic record"

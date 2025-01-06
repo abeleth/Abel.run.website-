@@ -127,7 +127,7 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Abel Ketema abel and abel 2"
+    title: "Abel Ketema"
     subtitle: "I build things for the web"
     content: "From marathon finish lines to coding milestones 🏁💻. I’m all about pushing limits and achieving the impossible. #marathoncoder"
   

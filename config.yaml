@@ -54,7 +54,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Abel Ketema"
+  title: "Abel and Key"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "Images/icons8-cloud-64.png"

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=Images/icons8-cloud-64.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:title" content="IAAS, PAAS and SAAS." />
+<meta property="og:description" content="Some inventions have been made for humanity to evolve and make life easy and fast. These day-to-day inventions support and grow a better society to the next level, especially when it comes to technology. IAAS, PAAS, and SAAS have the highest position in the technology world regarding infrastructure, platforms, and software. Different countries have to adapt to this technology or evolve to be one of the most powerful countries in the world, so it looks like the world is racing to master this technology." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blogs/my-7-post/" /><meta property="article:section" content="blogs" />
+<meta property="article:published_time" content="2024-08-17T18:03:01-06:00" />
+<meta property="article:modified_time" content="2024-08-17T18:03:01-06:00" /><meta property="og:site_name" content="Abel Ketema" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="IAAS, PAAS and SAAS."/>
+<meta name="twitter:description" content="Some inventions have been made for humanity to evolve and make life easy and fast. These day-to-day inventions support and grow a better society to the next level, especially when it comes to technology. IAAS, PAAS, and SAAS have the highest position in the technology world regarding infrastructure, platforms, and software. Different countries have to adapt to this technology or evolve to be one of the most powerful countries in the world, so it looks like the world is racing to master this technology."/>
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+
+
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+    
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+  <title>
+IAAS, PAAS and SAAS. | Abel Ketema
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;        
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                AbelPage
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About Me
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">
+                            Education
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blogs" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/gallery" title="Blog posts">
+                            
+                            Gallery
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">IAAS, PAAS and SAAS.</h1>
+            <div class="text-center">
+               
+              <small>|</small>
+              Aug 17, 2024
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          <p>Some inventions have been made for humanity to evolve and make life easy and fast. These day-to-day inventions support and grow a better society to the next level, especially when it comes to technology. IAAS, PAAS, and SAAS have the highest position in the technology world regarding infrastructure, platforms, and software. Different countries have to adapt to this technology or evolve to be one of the most powerful countries in the world, so it looks like the world is racing to master this technology. The focus of this paper is to discuss the three most essential infrastructures in cloud computing as mentioned (IAAS, PAAS, and SAAS), discuss the pros and cons of each of these infrastructures, present a focused problem within these systems, and overall explain the whys of cloud computing when it comes to why cloud computing is necessary for this day in age. When discussing cloud infrastructures, cloud users need help with why these systems must work together. This can be better explained by breaking down each system.</p>
+<p>SAAS is considered the users; they utilize the products made by the developers and architects. Platforms called PAAS make up the developers; they code and create the product. The architects are known as IAAS; they basically provide a virtual machine and storage and networking to develop the interface working hand-to-hand with PAAS. With these systems working together, networking is possible to create and manage, but human error is the real problem that needs to be focused on. These systems are not run by artificial intelligence yet, so extensive training must be implemented for employees who use these systems; that being said, data security, integration reassurance, and resource mismanagement are problem-focused factors that interfere with cloud efficiency. This presents a problem because networking and connectivity become nearly 2 impossible again, and resources (money being a prominent example) become a loss and liability. Starting with PAAS, systems that need to be integrated must be compatible with merging platforms. Non-compatible platforms can&rsquo;t be incorporated, so developers need to be aware of the capabilities of their current platform before blending into a new one. SAAS users must be trained on data security, know the risks and signs of a data breach or hacker activity, run safety audits, back up data, and, most importantly, encryptions. IAAS architects will make or break the company since they handle the resources, but they face the disadvantage of resource management.</p>
+<p>Hidden costs and resource mismanagement can occur when architects need to use their better judgment; this harms the company&rsquo;s revenue and time. Workloads fluctuate, and user volume can be unpredictable, which is hard to train for and predict; it comes with increasing experience to spend resources optimally. Evolving applications, preventing data breaches, and resource management are the problems that arise with these systems. PAAS, SAAS, and IAAS work together to achieve platform development, which makes it easier since actual additional hardware is not needed, eases merging issues when switching to different networks in terms of other installments while using the internet, and is user-friendly in terms of helping with infrastructure, development and application deployment respectively. The overall goal for these systems is to achieve quality resource management, high user approval of at least 90% with feedback, enhance efficiency on platforms when applications are implemented and used, and guarantee that use of the application has high user volume.</p>
+<p>With a growing infrastructure in cloud computing, it is essential to question what companies must keep in mind when integrating into these cloud service models. What challenges were faced by 3 these companies that did it? How can these systems save companies time and resources? These questions are important because they answer why these models are efficient, time-saving, and reliable overall and what to expect when integrating them into these systems. Integration can be challenging for users because they are the ones affected; they have to learn a new system and tool infrastructure, and if used improperly, it can cost companies more money. Human error and format infrastructure must fit the company&rsquo;s needs for this reason, this problem extends to a company-wide margin loss and the use of resources spent unnecessarily. What has worked in past attempts to solve this problem included proper employee training, user feedback, and system-wide development to help meet company goals when deciding what tools were needed to complete tasks and projects at a low cost. If this strategy had not been used, unhappy users and profit loss would have happened, and user capacity would have exceeded the amount the infrastructure could handle.</p>
+<p>This research will help provide more context on how each system communicates between users, developers, and architects and how application integration is achieved. As previously mentioned, user error presents a significant problem when integrating cloud tools. Completing on-the-job training may be difficult because not all users may finish the training on time, may find the training difficult and time-consuming, or the fact that users may become more comfortable with using their current or previous models. Cloud computing reduces maintenance costs which provides a solution to poor management of resources (Mohammed, C. M. et. al 2021)
+Literature Review</p>
+<p>An extensive literature review found that infrastructure issues are one of the most significant problems cloud computing has with PAAS, SAAS, and IAAS (Hiremath &amp; Mallapur, 2021). According to the journals, many human errors will make cloud computing vulnerable to cyber attacks and make companies lose millions of dollars annually. This is one of the most significant human errors. It has been the biggest challenge in cloud infrastructure. In order to be scalable, our infrastructure on the cloud needs to be managed safely. This would lead customers to distrust the product that the provider has given. Customers have considerable doubt about any infrastructure that can be breached, even as it is (Kumar et al., 2013). The software developer PAAS and the system architect IAAS must be fully secured before they put SAAS out for the end users. Developers and the architects must make sure that you, the end user, know how to operate the system and how to set it up, so they have to put enough information on how the infrastructure works, and they have to make sure to put out enough training for the end users to experience the safety and the reliability of the product. Due to these interventions, cyber attacks can be decreased, and the expenditure of resources can be utilized more efficiently and directed towards other applications to strengthen these interfaces.</p>
+<p>These interventions will save a company millions, and the resources used for cyber attacks will not be spent (Gupta &amp; Kaliyar, 2013). Cyber-hackers use many methods to attack any data for ransomware maliciously. Many companies must prevent these attacks by collaborating with their developers and end users on a protection plan. Most of these attacks can be easily preventable by using multi-authentication for AWS and authorization policies to ensure data is safe and the right users adequately trained to handle these situations are implemented in the protection plan and procedures (Nagalakshmi &amp; Ali, 2015). Companies have to encourage their employees to use multi-factor authentication at all times. This will prevent many data from being stolen from the company, preventing issues and increasing security. Another method of solving the human error issue in cloud computing is through the applications of SAAS to fraudulent employee activity. End-users will be subjected to an employee attendance verification process to decrease the occurrence of employee fraud for payroll purposes and data protection. These applications enhance cyber security in cloud computing to ensure infrastructure and user satisfaction are reached (Panjaitan et al., 2023).</p>
+<p>SAAS, PAAS, and IAAS are some of the few models that encompass cloud computing. This paper will dive deeper into each model. SAAS (Software As A Service) has become an efficient model in low-cost applications because the model charges less, has become widely available in digital marketing, and sales are very promising. Between 2018 and 2020, remote vendor transactions became common because of easy accessibility and reduced travel costs. SAAS continues to be a reputable service because of its scalability and a &ldquo;pay for what you get&rdquo; system. SAAS is very cost-friendly because the buyers can fit it into their budgets, and the quality of service fits everything they need for their software priorities. This service allows companies to pay more with their users and less on the software. SAAS is standard, used over the internet, and paid per user. The applications are highly reputable, and resources like Dropbox or Gmail are accessed within them.
+This system is subscription-based, and you pay per user; therefore, if an employee is no longer working for the company, the company will not be charged for that user. The best part about SAAS is that applications can be used solely on the internet, meaning that end-users are not required to download the application in order to use the service, meaning that end-users can save on storage and file space on their computer and solely focus on their projects within the application (Van Der Kooij &amp; Cespedes, 2013). The I in IAAS( Infrastructure As A Service) refers to laptops or anything that runs software; this can also be a mobile cell phone and can be run anywhere; the focus here is on infrastructure. How &ldquo;I&rdquo; is consumed is when these models are used &ldquo;As A Service&rdquo; (AAS). This section of this paper will break down IAAS. AAS represents the consumer portion of the model. Coming back to infrastructure, compute, which refers to processing, has three main compartments: compute, the second one is GPU, HPC, and the other one is storage, which includes objects, blocks, and files. These models must work with Networking in order to function and communicate properly. Compute refers to the general storage or server used to document or store any information or data. GPU is the artificial intelligence or computer learning aspect of the infrastructure. HPC is high-performance computing, the processing speed needed to transfer data and information. Storage has three main components because there are many ways data is stored. One is called Object, where documents, pictures, and other graphics are housed. Blocks are a specific storage application that attaches to specific networks and files and mounts to specific computers. In Networking, feeding data to the GPU requires a lot of communication between the block, Object, and itself. Data goes through the network pipe that is big enough to feed through; after processing through the network pipe, the GPU sends the data to block as a transcriber, and the data goes back to the GPU to learn the data going back and forth until all data is processed, once the data is cleared and processed, GPU will send the data to Object since the data fed through is typically media or documents, data is cheaply stored in Object which is why most data is stored there most commonly. Lastly, the AAS ( As A Service) portion encompasses four advantageous characteristics: everyone can use the service, what is billed can be an hourly or monthly charge at a low price, this service typically discourages long-term commitments, and once the service is purchased, it is automatically and readily available to the consumer which means that customers do not have a waiting period to use the service (Johns et. al, 2023). The final component is PAAS (Platform as A Service), a service used for applications but provides software with cloud components. This platform is a developer&rsquo;s canvas where they can create apps and projects without interference from other typical infrastructures. It provides the necessary tools to complete these applications, thus making the application process more efficient and saving developers much time. PAAS is so great because programming languages, pre-built middleware services like messaging systems, and incredible authentication tools help developers make these applications efficiently and quickly. Developers won&rsquo;t have to juggle creating the applications and maintaining the infrastructure configurations. Other than the advantage of scalability, developers can collaborate with other developers and work on building the application simultaneously, all while accessing and sharing data to complete the application as a team. Therefore, this platform is very user-friendly and team-oriented. PAAS is an excellent platform for new businesses to get their developers acquainted with each other and establish their team dynamic. Writing codes can be the main task for these developers (Pahl, 2015).</p>
+<p>In general, PAAS, IAAS, and SAAS encompass cloud computing where communication, teamwork, server uses, data storage, developer tools, applications, artificial intelligence, and cost efficiency come together to make the systems we use today, such as AWS, Google Cloud, and the many other applications used to make the world of technology more scalable, available and compatible. These systems are necessary for costs to move and store data and create applications and user services to be possible today, especially with the growing population of computer applications and users. These infrastructures must work together to create a safe environment and an intense atmosphere in Cloud computing. This infrastructure makes the cloud place more interactive with developers and users, allowing them to create an infrastructure that is helpful for the future of AI. Atmosphere and communication are essential for these systems. Hopefully, in the future, users will be reassured about security issues and the fast infrastructure of the system in general.</p>
+<p>This research paper will dive deeper into each cloud computing model. The disadvantages of IAAS, PAAS, and SAAS are discussed here. First, this report will discuss the disadvantages of SAAS Software as a service. The first disadvantage that I would like to talk about is Functionality. Some apps are relatively new and still getting updated with new technology. The Functionality Lacks accuracy and is less Futuristic than the on-premises Infrastructure. It takes time for users to adjust to the cloud service. From the user standpoint, this will make users choose or think about going forward using the on-premises platform since it has been tested and performed for a long time. The second disadvantage is cost. Cost is one of the most significant attributes of Cloud infrastructure. It might be very costly if the customer needs the proper infrastructure while building a cloud. Customers have to choose the professionals they use to build the cloud environment and have an excellent knowledge of it. To avoid this, customer should use cost management applications to save money on their projects. (Hoseini, L. (2013, September 12)
+The other one is working because Consumers have less control over the environment they will be building on the cloud surface, and adaptability is a disadvantage because varying system updates will cause users to be acquainted with the newer versions that the Avengers put out. This will put you in a position to keep your version of the application you will be using. The other one is data security. Data security is one of the most significant disadvantages of cloud service. Your information and business ideas will be in a third-party hand in Old times. This will put companies at risk when it comes to data security. Companies must devise an excellent idea to protect their data from cyber attacks at all times. Premises platform will not make you worry when it comes to data security because, at all times, you know your data is in your hands with your secured environment. You will be losing your information in the wrong hands.</p>
+<p>PAAS is also known as a Platform As A Service. Any platform with an internet connection can use PAAS. Developers can code their software over the internet and maintain infrastructure. Machine learning is also why developers use PAAS. Platform as a service is a very salable model but comes with some typical advantages that companies that use this model need to understand. Outages can decrease applications&rsquo; deployment or reaction time; this is also seen in PAAS. Multiple versions of an application can be updated many times, so users need to remember the adaptability required to use this service. Resources management is critical. PAAS can typically be more expensive than IAAS. (Pahl, C. (2015, May 6)</p>
+<p>Therefore, businesses need to research which platforms will work best with their department and have resource management in mind for this reason. Another disadvantage of using PAAS is the integration issues. Moving from vendor to vendor will be challenging because of compatibility issues. Even a company&rsquo;s existing premises can become incompatible with other platforms, and data control, storage, and memory loss can occur, which will be a costly mistake. Businesses need to research when considering PAAS as a model for their application developments.</p>
+<p>Infrastructure as a service al, known in short as IAAS, is a cloud service model that allows scalability, memory, storage, networking, and many more services. Scalability is essential, especially during peak seasons such as October through December, when all the major holidays line up, and more inventory demand is prevalent. IAAS is a server in a virtual form that customers can rent out. This service helps data become more accessible, and customers can install different modes of IAAS. Private, public, and hybrid clouds will be discussed further in this research paper.</p>
+<p>Starting with Public Cloud, as hinted by the name, this service uses limited access where provisions can either be worked on by the company, a third-party organization, or both. The public cloud is also a simple form of cloud infrastructure that provides many organizations access to the infrastructure, also called a &ldquo;Multi-tenant model&rdquo; (n.d, CompTIA.org,2023). A combination of academic organizations, government agencies, and businesses can manage it. This submodel exists on-premises. Hybrid Cloud is just the private and public cloud leveraged to make data, storage, and other applications more transferable and compatible.</p>
+<p>These sub-models help with scalability for companies; users can increase or decrease depending on the seasons. Although IAAS presents the best advantage of scalability by allowing user capacity to change within user demand, other advantages include its cost-effectiveness by most often charging for services monthly. Unfortunately IAAS cannot always present a sound cloud servicing model. Since it is relatively new, there are a few bugs to discuss. Data breaches can occur due to human or business errors, and they cannot integrate with older systems. Downtime can occur for any size among service providers, and third parties are often used as tech support; therefore, companies need to remember that the expertise in IAAS has yet to be fully mastered (n.d, CompTIA.org,2023).
+As discussed in this research paper, many advantages, disadvantages, and business considerations exist when using Infrastructure As A Service, Software As A Service, and Platform As A Service. These models make application development and scalability easier by compensating user volumes, storage, memory, and cost-effectiveness. These attributes keep clouding alive and help to advance this technology further in the future.</p>
+<p><em><strong>Resources</strong></em></p>
+<p>AL Ladan, M. I. (2019). Security issues in cloud-based businesses. 9th International Conference on Computer Science, Engineering and Applications (CCSEA 2019). <a href="https://doi.org/10.5121/csit.2019.90929">https://doi.org/10.5121/csit.2019.90929</a></p>
+<p>F. Nadeem, &ldquo;Evaluating and Ranking Cloud IaaS, PaaS and SaaS Models Based on Functional and Non-Functional Key Performance Indicators,&rdquo; in IEEE Access, vol. 10, pp. 63245-63257, 2022, doi: 10.1109/ACCESS.2022.3182688.</p>
+<p>Gupta, P., &amp; Kaliyar, P. (2013). History aware anomaly based ids for cloud iaas. INTERNATIONAL JOURNAL OF COMPUTERS &amp; TECHNOLOGY, 10(6), 1779–1784. <a href="https://doi.org/10.24297/ijct.v10i6.3205">https://doi.org/10.24297/ijct.v10i6.3205</a></p>
+<p>Hiremath, T. C., &amp; Mallapur, J. D. (n.d.). Mobile cloud computing: A survey of research issues&amp; challenges. International Journal of Innovations in Engineering Research and Technology. <a href="https://repo.ijiert.org/index.php/ijiert/article/view/791#">https://repo.ijiert.org/index.php/ijiert/article/view/791#</a></p>
+<p>Hoseini, L. (2013, September 12). Advantages and disadvantages of adopting ERP systems served as SAAS from the perspective of SAAS users. DIVA. <a href="https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A647780&amp;dswid=-6766">https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A647780&amp;dswid=-6766</a></p>
+<p>Johns, K. (2023, April 28). Top 10 best web development technologies to use in 2022: ISHIR- software development company india. ISHIR. <a href="https://www.ishir.com/blog/9821/top-10-best-web-development-technologies-to-use-in-2021.htm">https://www.ishir.com/blog/9821/top-10-best-web-development-technologies-to-use-in-2021.htm</a> Mohammed, C. M. and Zeebaree, S. R. M. (2021). Sufficient Comparison Among Cloud Computing Services: IaaS, PaaS, and SaaS: A Review . International Journal of Science and Business, 5(2), 17-30. doi: <a href="https://doi.org/10.5281/zenodo.4450129">https://doi.org/10.5281/zenodo.4450129</a> Retrieved from <a href="http://ijsab.com/wp-content/uploads/667.pdf">http://ijsab.com/wp-content/uploads/667.pdf</a></p>
+<p>Nagalakshmi, M., &amp; Sadat Ali, S. (2015). Verification Of Scalable Distributed Service Integrity For Software-As-A-Service Clouds. IJSEAT, 3(7), 285-289. Retrieved from <a href="http://ijseat.com/index.php/ijseat/article/view/375">http://ijseat.com/index.php/ijseat/article/view/375</a></p>
+<p>N.D. What is iaas-Advantages and disadvantages: cloud computing: comptiaCompTIA.org. <a href="https://www.comptia.org/content/articles/what-is-iaas">https://www.comptia.org/content/articles/what-is-iaas</a></p>
+<p>Pahl, C. (2015, May 6). Containerisation and the paas cloud - doras. Containerisation and the PaaS Cloud. <a href="http://doras.dcu.ie/20642/1/CCM-2015-Pahl-Containers-PaaS-Cloud.pdf">http://doras.dcu.ie/20642/1/CCM-2015-Pahl-Containers-PaaS-Cloud.pdf</a></p>
+<p>Panjaitan, M., Agustin, A., Herwin, H., &amp; Anam, M. K. (2023). Aplikasi absensi Kerja Lembur karyawan berbasis cloud computing sebagai software as a service (SAAS). Rabit : Jurnal Teknologi Dan Sistem Informasi Univrab, 8(1), 1–9. <a href="https://doi.org/10.36341/rabit.v8i1.2964">https://doi.org/10.36341/rabit.v8i1.2964</a></p>
+<p>Routree D &amp; Castrilllo Ileana. (2014). The Basics of Cloud Computing: Understanding the Fundamentals of Cloud Computing in Theory and Practice. ISBN 978-0-12-405932-0. Evolve/Syngress.</p>
+<p>Singh, S., Shukla, A., Sharma, A., &amp; Lone, K. (2013). New approach for managing keys in Cloud &amp; Use Cases for cloud computing. INTERNATIONAL JOURNAL OF COMPUTERS &amp; TECHNOLOGY, 4(1), 111–113. <a href="https://doi.org/10.24297/ijct.v4i1b.3069">https://doi.org/10.24297/ijct.v4i1b.3069</a></p>
+<p>van der Kooij, J., &amp; Cespedes, F. (2023, April 18). The rebirth of software as a Service. Harvard Business Review. <a href="https://hbr.org/2023/04/the-rebirth-of-software-as-a-service">https://hbr.org/2023/04/the-rebirth-of-software-as-a-service</a></p>
+<p>Venkata Gowtham Raju, P., &amp; Imran, M. (2015). Integrated Attestation Scheme for Scalable Distributed Services in Software-as-a-Service Clouds. IJSEAT, 3(12), 1194-1199. Retrieved from <a href="http://ijseat.com/index.php/ijseat/article/view/567">http://ijseat.com/index.php/ijseat/article/view/567</a></p>
+<p>Wulf, F., Lindner, T., Westner, M., &amp; Strahringer, S. (2021). IaaS, paas, or SAAS? the why of cloud computing delivery model selection – vignettes on the post-adoption of cloud computing. Proceedings of the Annual Hawaii International Conference on System Sciences. <a href="https://doi.org/10.24251/hicss.2021.758">https://doi.org/10.24251/hicss.2021.758</a></p>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents"></nav>
+              </div>
+          </aside>
+          
+
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fmy-7-post%2f">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=IAAS%2c%20PAAS%20and%20SAAS.&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fmy-7-post%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=IAAS%2c%20PAAS%20and%20SAAS.: http%3a%2f%2flocalhost%3a1313%2fblogs%2fmy-7-post%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=IAAS%2c%20PAAS%20and%20SAAS.&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fblogs%2fmy-7-post%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+ 
+<div class="container py-3" id="recent-posts">
+    
+    
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/my-5-post/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="How to create variable.">How to create variable.</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>To create variable.
+export DB_USERNAME=dbuser export DB_PASSWORD=secretpwdvalue export DB_NAME=mydb printenv | grep DB echo $DB_NAME &#34;IF YOU WANT TO SEE&#34; export DB_NAME=NEW-DB-NAME &#34;To change new name&#34; if you want to do it permanently you have to use &#34;Vim&#34; vim .bashrc &#34;at …</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Aug 17, 2024</span>
+                    <a href="/blogs/my-5-post/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/my-4-post/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Second post how to use them">Second post how to use …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>diff: To find the differences between two files, use diff followed by the file names. For example, diff file1.txt file2.txt will display the lines that differ between &ldquo;file1.txt&rdquo; and &ldquo;file2.txt&rdquo;. cmp: Use cmp followed by the two file names to check if two files are identical. …</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Aug 17, 2024</span>
+                    <a href="/blogs/my-4-post/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/my-3-post/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="How to use them?">How to use them?</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>How to use them?
+ls: To list directories and files in the current directory, simply type ls and press Enter. You can also specify a directory as an argument to list its contents. pwd: Typing pwd and pressing Enter will display the current working directory. cd: To navigate through directories, use …</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Aug 17, 2024</span>
+                    <a href="/blogs/my-3-post/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="text-center pt-2">
+    
+    <span class="px-1">
+        <a href="https://github.com/abeleth" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
+
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
+    </span>
+    
+
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/abel-ketema-contact-me/" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
+        </a>
+    </span>
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            <div class="pb-2">
+                <a href="http://localhost:1313/" title="Abel Ketema">
+                    <img alt="Footer logo" src="Images/icons8-cloud-64.png"
+                        height="40px" width="40px">
+                </a>
+            </div>
+            &copy; 2025  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div></footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

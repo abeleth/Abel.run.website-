@@ -57,12 +57,5 @@
       <guid>http://localhost:1313/blogs/my-first-post/</guid>
       <description>Introduction Linux Top 20 Linux code. Deep learning in Linux scale. I&amp;rsquo;m creating a list.&#xA;cd: Changes the current directory. mkdir: Creates a new directory. mv: Moves or renames files and directories. cp: Copies files and directories. rm: Removes (deletes) files and directories. touch: Creates an empty file or updates the access timestamp of an existing file. ln: Creates a symbolic link (shortcut) to a file or directory. cat: Displays the contents of a file.</description>
     </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/blogs/my-10-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/my-10-post/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

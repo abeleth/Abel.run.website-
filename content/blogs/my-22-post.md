@@ -10,7 +10,10 @@ Sign in to the AWS Management Console
 Log in to the AWS Management Console and navigate to the IAM service from the "Security, Identity, & Compliance" section.
 
 
-![my phote](<../../themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png>)
+
+<img src="./C:\Abelkrun\themes\hugo-profile-new\images\Screenshot 2025-01-07 234543.png"/> 
+
+
 
 Navigate to the "Users" Section
 In the IAM dashboard, click on Users in the left-hand menu.
@@ -36,3 +39,5 @@ Verify all settings on the Review page.
 Click Create user to
 
 [def]: <Screenshot 2025-01-07 234543.png>
+[def2]: <../../themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png>
+[def3]: <../../themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png>

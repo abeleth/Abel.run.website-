@@ -40,8 +40,11 @@ Starting with Public Cloud, as hinted by the name, this service uses limited acc
 These sub-models help with scalability for companies; users can increase or decrease depending on the seasons. Although IAAS presents the best advantage of scalability by allowing user capacity to change within user demand, other advantages include its cost-effectiveness by most often charging for services monthly. Unfortunately IAAS cannot always present a sound cloud servicing model. Since it is relatively new, there are a few bugs to discuss. Data breaches can occur due to human or business errors, and they cannot integrate with older systems. Downtime can occur for any size among service providers, and third parties are often used as tech support; therefore, companies need to remember that the expertise in IAAS has yet to be fully mastered (n.d, CompTIA.org,2023). 
 As discussed in this research paper, many advantages, disadvantages, and business considerations exist when using Infrastructure As A Service, Software As A Service, and Platform As A Service. These models make application development and scalability easier by compensating user volumes, storage, memory, and cost-effectiveness. These attributes keep clouding alive and help to advance this technology further in the future.
 
-
++++
 title = ***Resources***
+draft = false
++++
+
 
 AL Ladan, M. I. (2019). Security issues in cloud-based businesses. 9th International Conference on Computer Science, Engineering and Applications (CCSEA 2019). https://doi.org/10.5121/csit.2019.90929 
 

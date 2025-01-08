@@ -41,7 +41,7 @@ These sub-models help with scalability for companies; users can increase or decr
 As discussed in this research paper, many advantages, disadvantages, and business considerations exist when using Infrastructure As A Service, Software As A Service, and Platform As A Service. These models make application development and scalability easier by compensating user volumes, storage, memory, and cost-effectiveness. These attributes keep clouding alive and help to advance this technology further in the future.
 
 
-               ***Resources***
+***Resources***
 
 AL Ladan, M. I. (2019). Security issues in cloud-based businesses. 9th International Conference on Computer Science, Engineering and Applications (CCSEA 2019). https://doi.org/10.5121/csit.2019.90929 
 

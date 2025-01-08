@@ -30,20 +30,6 @@
       <description>How to use them?&#xA;ls: To list directories and files in the current directory, simply type ls and press Enter. You can also specify a directory as an argument to list its contents. pwd: Typing pwd and pressing Enter will display the current working directory. cd: To navigate through directories, use cd followed by the directory path you want to move to. For example, cd /path/to/directory will change the current directory to the specified path.</description>
     </item>
     <item>
-      <title>IAAS, PAAS and SAAS.</title>
-      <link>http://localhost:1313/blogs/my-7-post/</link>
-      <pubDate>Sat, 17 Aug 2024 18:03:01 -0600</pubDate>
-      <guid>http://localhost:1313/blogs/my-7-post/</guid>
-      <description>Some inventions have been made for humanity to evolve and make life easy and fast. These day-to-day inventions support and grow a better society to the next level, especially when it comes to technology. IAAS, PAAS, and SAAS have the highest position in the technology world regarding infrastructure, platforms, and software. Different countries have to adapt to this technology or evolve to be one of the most powerful countries in the world, so it looks like the world is racing to master this technology.</description>
-    </item>
-    <item>
-      <title>Infrastructure and Host Threats.</title>
-      <link>http://localhost:1313/blogs/my-6-post/</link>
-      <pubDate>Sat, 17 Aug 2024 18:03:01 -0600</pubDate>
-      <guid>http://localhost:1313/blogs/my-6-post/</guid>
-      <description>As time passes, cloud computing continues to adapt and Sheikh towards company needs that are unique, innovative, and complex. In the IT infrastructure, businesses and developers can take many developmental approaches to provide high-quality applications and services within cloud computing. components to modern computing include scalability, applications that acquire cost effectiveness, services that include implementing invested amount of storage for these businesses, whether they are small businesses or big corporations, and allowing their applications and services to be flexible to enhance customer freedoms within their services; customers implementing their policies and procedures will allow more customer appeal to these services.</description>
-    </item>
-    <item>
       <title>Advanced Linux code.</title>
       <link>http://localhost:1313/blogs/name-of-post/</link>
       <pubDate>Tue, 23 Jul 2024 17:09:08 -0600</pubDate>
@@ -56,6 +42,13 @@
       <pubDate>Tue, 02 Jul 2024 12:48:18 -0600</pubDate>
       <guid>http://localhost:1313/blogs/my-first-post/</guid>
       <description>Introduction Linux Top 20 Linux code. Deep learning in Linux scale. I&amp;rsquo;m creating a list.&#xA;cd: Changes the current directory. mkdir: Creates a new directory. mv: Moves or renames files and directories. cp: Copies files and directories. rm: Removes (deletes) files and directories. touch: Creates an empty file or updates the access timestamp of an existing file. ln: Creates a symbolic link (shortcut) to a file or directory. cat: Displays the contents of a file.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/blogs/my-22-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/my-22-post/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

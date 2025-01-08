@@ -11,7 +11,14 @@ Log in to the AWS Management Console and navigate to the IAM service from the "S
 
 
 
-<img src="./C:\Abelkrun\themes\hugo-profile-new\images\Screenshot 2025-01-07 234543.png"/> 
+<img src="themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png"  width="600" height="200" />
+
+
+
+
+
+
+
 
 
 
@@ -41,3 +48,4 @@ Click Create user to
 [def]: <Screenshot 2025-01-07 234543.png>
 [def2]: <../../themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png>
 [def3]: <../../themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png>
+[def4]: <../../themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png>

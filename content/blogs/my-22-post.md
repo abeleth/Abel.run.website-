@@ -10,7 +10,8 @@ Sign in to the AWS Management Console
 Log in to the AWS Management Console and navigate to the IAM service from the "Security, Identity, & Compliance" section.
 
 
-![Screenshot](../../static/Images/Screenshot-22.jpg)
+
+<image src="/static/Images/Screenshot-22.jpg" width="600" height="200" />
 
 
 

@@ -11,7 +11,7 @@ Log in to the AWS Management Console and navigate to the IAM service from the "S
 
 
 
-<img src="themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png"  width="600" height="200" />
+![alt text](<../../static/Images/Screenshot 22.jpg>)
 
 
 

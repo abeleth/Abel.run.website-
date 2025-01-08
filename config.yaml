@@ -54,7 +54,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Abel and Key"
+  title: "Abel Ketema"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "Images/icons8-cloud-64.png"
@@ -127,7 +127,7 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Abel ketema"
+    title: "Abel Ketema"
     subtitle: "I build things for the web"
     content: "From marathon finish lines to coding milestones 🏁💻. I’m all about pushing limits and achieving the impossible. #marathoncoder"
   
@@ -171,7 +171,15 @@ params:
        for skillfully directing efficient enhancements, overseeing diverse functions, and implementing scalable systems. 
        Demonstrated proficiency in navigating intricate technical landscapes to ensure optimal performance and unwavering reliability.
        As a seasoned DevOps Engineer, I leverage a versatile skill set to propel transformative outcomes in cloud-based environments, 
-       playing a pivotal role in the overall success of business operations.:
+       playing a pivotal role in the overall success of business operations. As a passionate DevOps professional, I thrive at the 
+       intersection of development, operations, and innovation. With a deep love for coding and an appreciation for the elegance of 
+       efficient systems, I have honed my skills by collaborating across diverse teams to drive seamless deployment pipelines, improve 
+       infrastructure reliability, and enable rapid delivery cycles.
+       My background includes hands-on experience in automation, cloud platforms, CI/CD pipelines, and container orchestration. I am deeply 
+       motivated by the challenge of solving complex problems and building scalable systems that empower teams to deliver high-quality software
+        faster and more efficiently.Currently pursuing a Master's in Science in Cloud Computing, I am enhancing my expertise in cloud-native 
+        technologies and advanced infrastructure strategies. My ongoing work on AWS certifications solidifies my understanding of scalable 
+        cloud solutions, making me well-equipped to tackle complex challenges in modern DevOps environments. :
 
    
  

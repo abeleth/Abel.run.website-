@@ -9,6 +9,13 @@
     <lastBuildDate>Sat, 17 Aug 2024 18:13:50 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AWS.</title>
+      <link>http://localhost:1313/blogs/my-22-post/</link>
+      <pubDate>Sat, 17 Aug 2024 18:13:50 -0600</pubDate>
+      <guid>http://localhost:1313/blogs/my-22-post/</guid>
+      <description>Sign in to the AWS Management Console Log in to the AWS Management Console and navigate to the IAM service from the &amp;ldquo;Security, Identity, &amp;amp; Compliance&amp;rdquo; section.&#xA;Navigate to the &amp;ldquo;Users&amp;rdquo; Section In the IAM dashboard, click on Users in the left-hand menu. Click the Add users button to initiate the user creation process.&#xA;Configure User Details Specify the User Name: Enter a unique name for the user (e.g., &amp;ldquo;devops-user&amp;rdquo; or &amp;ldquo;team-member-1&amp;rdquo;).</description>
+    </item>
+    <item>
       <title>How to create variable.</title>
       <link>http://localhost:1313/blogs/my-5-post/</link>
       <pubDate>Sat, 17 Aug 2024 18:13:50 -0600</pubDate>
@@ -42,13 +49,6 @@
       <pubDate>Tue, 02 Jul 2024 12:48:18 -0600</pubDate>
       <guid>http://localhost:1313/blogs/my-first-post/</guid>
       <description>Introduction Linux Top 20 Linux code. Deep learning in Linux scale. I&amp;rsquo;m creating a list.&#xA;cd: Changes the current directory. mkdir: Creates a new directory. mv: Moves or renames files and directories. cp: Copies files and directories. rm: Removes (deletes) files and directories. touch: Creates an empty file or updates the access timestamp of an existing file. ln: Creates a symbolic link (shortcut) to a file or directory. cat: Displays the contents of a file.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/blogs/my-22-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/my-22-post/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

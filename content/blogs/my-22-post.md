@@ -9,10 +9,8 @@ draft = false
 Sign in to the AWS Management Console
 Log in to the AWS Management Console and navigate to the IAM service from the "Security, Identity, & Compliance" section.
 
-about:
-    enable: true
-    title: "About Me"
-    image: "/Images/Screenshot 2025-01-07 234543.png"
+
+![my phote](<../../themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png>)
 
 Navigate to the "Users" Section
 In the IAM dashboard, click on Users in the left-hand menu.

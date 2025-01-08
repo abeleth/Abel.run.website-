@@ -10,8 +10,17 @@ Sign in to the AWS Management Console
 Log in to the AWS Management Console and navigate to the IAM service from the "Security, Identity, & Compliance" section.
 
 
+![Screenshot](../../static/Images/Screenshot-22.jpg)
 
-![alt text](<../../static/Images/Screenshot 22.jpg>)
+
+
+
+
+
+
+
+
+
 
 
 
@@ -49,3 +58,4 @@ Click Create user to
 [def2]: <../../themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png>
 [def3]: <../../themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png>
 [def4]: <../../themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png>
+[def5]: <../../static/Images/Screenshot 22.jpg>

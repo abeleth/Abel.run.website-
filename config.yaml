@@ -174,7 +174,7 @@ params:
         title: "Here are a few technologies I've been working with recently!"
         items:
         - "Terraform"
-        - "AWS"
+        - "(AWS) CloudFormation"
         - "Git"
         - "Kubernetes"
         - "Linux"
@@ -182,6 +182,10 @@ params:
         - "google cloud"
         - "digital ocean"
         - "Multi cloud"
+        -"Jankins"
+        -"Azure DevOps pipelines"
+        -"AWS CodePipelines"
+        -"Datadog"
   # Experience
   experience:
     enable: false

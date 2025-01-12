@@ -173,7 +173,7 @@ params:
         enable: true
         title: "Here are a few technologies I've been working with recently!"
         items:
-        - "Terraform"
+        - "Terraform"  
         - "(AWS) CloudFormation"
         - "Git"
         - "Kubernetes"
@@ -186,6 +186,7 @@ params:
         - "Azure DevOps pipelines"
         - "AWS CodePipelines"
         - "Datadog"
+        - "CI/CD"
   # Experience
   experience:
     enable: false

@@ -11,4 +11,9 @@
   <a href="https://github.com/user-attachments/assets/463a2291-bcbf-401e-81af-e40d743a8750">DevOps</a>
 </div>
 
+<div align="center">
+  <a href="https://github.com/user-attachments/assets/463a2291-bcbf-401e-81af-e40d743a8750">DevOps</a>
+  <br>
+  <img src="https://github.com/user-attachments/assets/463a2291-bcbf-401e-81af-e40d743a8750" alt="DevOps Image" width="400">
+</div>
 

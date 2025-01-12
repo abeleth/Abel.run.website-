@@ -9,7 +9,6 @@
 [DevOps](DevOps)
 
 
-
 <a href="https://github.com/abeleth/Abel.run.website-/blob/main/git">
   <img src="https://github.com/user-attachments/assets/19155cff-6ae9-4137-99ca-e0ed502c51e3" alt="git" width="100" height="50"> 
 </a>
@@ -26,31 +25,5 @@
 
 
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
 
-  <div style="text-align: center;">
-    <a href="https://github.com/abeleth/Abel.run.website-/blob/main/DevOps">
-      <img src="https://github.com/user-attachments/assets/796643bc-2a54-449b-ba17-ffef71b8a2c6" alt="DevOps" width="100" height="50"> 
-    </a>
-    <br>
-    <a href="https://github.com/abeleth/Abel.run.website-/blob/main/DevOps">DevOps</a>
-  </div>
-
-  <div style="text-align: center;">
-    <a href="https://github.com/abeleth/Abel.run.website-/blob/main/git">
-      <img src="https://github.com/user-attachments/assets/19155cff-6ae9-4137-99ca-e0ed502c51e3" alt="Git" width="100" height="50"> 
-    </a>
-    <br>
-    <a href="https://github.com/abeleth/Abel.run.website-/blob/main/git">Git</a>
-  </div>
-
-  <div style="text-align: center;">
-    <a href="https://github.com/abeleth/Abel.run.website-/blob/main/aws">
-      <img src="https://github.com/user-attachments/assets/67b9e778-314c-4210-b769-2077b2f5351f" alt="AWS" width="100" height="50"> 
-    </a>
-    <br>
-    <a href="https://github.com/abeleth/Abel.run.website-/blob/main/aws">AWS</a>
-  </div>
-
-</div>
 

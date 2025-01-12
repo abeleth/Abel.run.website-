@@ -26,4 +26,24 @@
 
 
 
+| **DevOps Topics**        | **Programming**        | **Cloud**                  | **Operating System**  |
+|---------------------------|------------------------|----------------------------|-----------------------|
+| DevOps                   | Python                | AWS                        | Linux                |
+| Git                      | Go                    | Azure                      | Virtualization       |
+| Network                  | Perl                  | Google Cloud Platform      | DNS                  |
+| Hardware                 | RegEx                 | OpenStack                  | Bash                 |
+| Kubernetes               | Shell Scripting       |                            |                      |
+
+| **Databases**             | **Big Data & CI/CD**  | **Containers**             | **Tools**            |
+|---------------------------|-----------------------|----------------------------|----------------------|
+| SQL                      | Big Data             | OpenShift                  | Terraform            |
+| Mongo                    | CI/CD                | Storage                    | Puppet               |
+| Testing                  | Certificates          |                            | Ansible              |
+
+| **Observability**         | **Soft Skills**       | **Security**               | **Miscellaneous**    |
+|---------------------------|-----------------------|----------------------------|----------------------|
+| Prometheus               | HR                   | System Design              | Elastic              |
+| Circle CI                | Security             | Chaos Engineering          | Kafka                |
+| Grafana                  | Design               |                            | NodeJs               |
+| Argo                     |                      |                            |                      |
 

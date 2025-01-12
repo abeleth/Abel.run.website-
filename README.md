@@ -4,6 +4,6 @@
   <img src="https://github.com/user-attachments/assets/796643bc-2a54-449b-ba17-ffef71b8a2c6" alt="DevOps" width="100" height="50"> 
 </a>
 
-[DevOps](github.com/user-attachments/assets/463a2291-bcbf-401e-81af-e40d743a8750)
+[DevOps](DevOps)
 
 

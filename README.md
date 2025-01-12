@@ -51,8 +51,6 @@
 [Kubernetes](Kubernetes)
 
 
-![image](https://github.com/user-attachments/assets/6566fa12-f271-4dbb-b60a-db404ebbda27)
-
 
 
 

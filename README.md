@@ -7,5 +7,8 @@
 [DevOps](github.com/user-attachments/assets/463a2291-bcbf-401e-81af-e40d743a8750)
 
 
+<div align="center">
+  <a href="https://github.com/user-attachments/assets/463a2291-bcbf-401e-81af-e40d743a8750">DevOps</a>
+</div>
 
 

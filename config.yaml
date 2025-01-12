@@ -114,10 +114,13 @@ params:
     title: "Abel Ketema"
     subtitle: "I build things for the web"
     content: "From marathon finish lines to coding milestones 🏁💻, I’m driven by the thrill of pushing boundaries and achieving what once seemed impossible. Whether it’s pounding the pavement on a 26.2-mile journey or navigating the complexities of cloud computing and DevOps, 
+<<<<<<< HEAD
      I embrace every challenge with passion and perseverance. For me, it’s not just about the destination—it’s about growth, grit, and the relentless pursuit of excellence. Each step forward, whether on the track or in code, is another victory.
      #marathoncoder"
+=======
+     I embrace every challenge with passion and perseverance. For me, it’s not just about the destination—it’s about growth, grit, and the relentless pursuit of excellence. Each step forward, whether on the track or in code, is another victory.#marathoncoder" "
+>>>>>>> 98f6de0e6efb796dec2039f420278d93ea1ea2be
   
-    
     bottomImage:
      enable: true
     # roundImage: true # Make hero image circular | default false
@@ -176,7 +179,7 @@ params:
         title: "Here are a few technologies I've been working with recently!"
         items:
         - "Terraform"
-        - "AWS"
+        - "(AWS) CloudFormation"
         - "Git"
         - "Kubernetes"
         - "Linux"
@@ -184,6 +187,10 @@ params:
         - "google cloud"
         - "digital ocean"
         - "Multi cloud"
+        - "Jankins"
+        - "Azure DevOps pipelines"
+        - "AWS CodePipelines"
+        - "Datadog"
   # Experience
   experience:
     enable: false
@@ -295,7 +302,7 @@ params:
       - title: Facebook Hackathon Winner
         content: Developed a product using Artificial Intelligence.
         image: /images/achievment.jpg
-      - title: Hugo Profile
+      - title: Abel Ketema Profile
         content: Developed a theme and getting 1K+ downloads per month.
         url: "https://github.com/gurusabarish/hugo-profile"
         image: /images/achievment.jpg

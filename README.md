@@ -23,5 +23,13 @@
 [AWS](aws)
 
 
+<a href="https://github.com/abeleth/Abel.run.website-/blob/main/Linux">
+  <img src="https://github.com/user-attachments/assets/a369b54a-29a7-4e54-93d7-02771eb0627c" alt="Linux" width="100" height="50"> 
+</a>
+
+[Linux](Linux)
+
+
+![image](https://github.com/user-attachments/assets/a369b54a-29a7-4e54-93d7-02771eb0627c)
 
 

@@ -5,7 +5,7 @@
 Click the image below to learn more about DevOps!
 
 <a href="https://abelketema.com/">
-  <img src="https://github.com/user-attachments/assets/463a2291-bcbf-401e-81af-e40d743a8750" alt="DevOps" width="400">
+  <img src="https://github.com/user-attachments/assets/463a2291-bcbf-401e-81af-e40d743a8750" alt="DevOps" width="200" height="200">
 </a>
 
 

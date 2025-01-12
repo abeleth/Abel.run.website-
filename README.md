@@ -10,5 +10,4 @@ Click the image below to learn more about DevOps!
 
 
 
-![image](https://github.com/user-attachments/assets/463a2291-bcbf-401e-81af-e40d743a8750) 
-[Devops](https://abelketema.com/)
+

@@ -14,7 +14,7 @@
   <img src="https://github.com/user-attachments/assets/19155cff-6ae9-4137-99ca-e0ed502c51e3" alt="git" width="100" height="50"> 
 </a>
 
-[DevOps](Git)
+[Git](git)
 
 
 ![image](https://github.com/user-attachments/assets/19155cff-6ae9-4137-99ca-e0ed502c51e3)

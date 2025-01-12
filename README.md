@@ -17,5 +17,5 @@
 [Git](git)
 
 
-![image](https://github.com/user-attachments/assets/19155cff-6ae9-4137-99ca-e0ed502c51e3)
+
 

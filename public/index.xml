@@ -9,11 +9,11 @@
     <lastBuildDate>Sat, 17 Aug 2024 18:13:50 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AWS.</title>
+      <title>AWS IAM user creation process.</title>
       <link>http://localhost:1313/blogs/my-22-post/</link>
       <pubDate>Sat, 17 Aug 2024 18:13:50 -0600</pubDate>
       <guid>http://localhost:1313/blogs/my-22-post/</guid>
-      <description>Sign in to the AWS Management Console Log in to the AWS Management Console and navigate to the IAM service from the &amp;ldquo;Security, Identity, &amp;amp; Compliance&amp;rdquo; section.&#xA;Navigate to the &amp;ldquo;Users&amp;rdquo; Section In the IAM dashboard, click on Users in the left-hand menu. Click the Add users button to initiate the user creation process.&#xA;Configure User Details Specify the User Name: Enter a unique name for the user (e.g., &amp;ldquo;devops-user&amp;rdquo; or &amp;ldquo;team-member-1&amp;rdquo;).</description>
+      <description>Sign in to the AWS Management Console&#xA;Log in to the AWS Management Console and navigate to the IAM service from the &amp;ldquo;Security, Identity, &amp;amp; Compliance&amp;rdquo; section.&#xA;Navigate to the &amp;ldquo;Users&amp;rdquo; Section&#xA;In the IAM dashboard, click on Users in the left-hand menu. Click the Add users button to initiate the user creation process.&#xA;Configure User Details&#xA;Specify the User Name: Enter a unique name for the user (e.g., &amp;ldquo;devops-user&amp;rdquo; or &amp;ldquo;team-member-1&amp;rdquo;).</description>
     </item>
     <item>
       <title>How to create variable.</title>

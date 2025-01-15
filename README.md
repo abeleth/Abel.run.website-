@@ -67,7 +67,7 @@ Git is essential for DevOps engineers as it provides robust version control, ena
 
 
 <a href="https://github.com/abeleth/Abel.run.website-/blob/main/Google Cloud/README.md">
-  <img src="https://github.com/user-attachments/assets/6a9b0a99-25ef-41cf-82e7-ad4dfaea8592" alt="Google.cloud" width="100" height="50"> 
+  <img src="https://github.com/user-attachments/assets/6a9b0a99-25ef-41cf-82e7-ad4dfaea8592" alt="Google cloud" width="100" height="50"> 
 </a>
 
 [Google Cloud](Google Cloud/README.md)

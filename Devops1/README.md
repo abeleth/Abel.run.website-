@@ -1,5 +1,5 @@
 <details>
-  <summary>Click to expand the DevOps Explanation</summary>
+  <summary>What is Devops?</summary>
   
 + **What is Devops?**
 

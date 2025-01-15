@@ -29,7 +29,11 @@
 
 </details>
 
-**To be a successfil DevOps Engineer you neen this skills.** 
+
+<details>
+  <summary>To be a successfil DevOps Engineer you neen this skills.</summary>
+
+
 
 **Technical Skills:**
 
@@ -78,3 +82,5 @@ Hands-on experience in real-world projects and environments.
 **Certifications (Optional but Beneficial):**
 
 AWS, Google Cloud, Azure DevOps, Kubernetes, Docker, Terraform certifications.
+
+</details>

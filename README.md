@@ -17,6 +17,9 @@ Git is essential for DevOps engineers as it provides robust version control, ena
 [Git](git/README.md)
 
 
+AWS (Amazon Web Services) is a leading cloud computing platform that provides on-demand, scalable infrastructure and services to support diverse applications. It offers a wide range of tools, including computing power (EC2), storage (S3), databases (RDS, DynamoDB), networking, and machine learning. AWS is critical for DevOps workflows, with services like CloudFormation and Terraform for Infrastructure as Code, CodePipeline for CI/CD automation, and CloudWatch for monitoring and logging. Its container services (ECS, EKS, and Fargate) and serverless computing (Lambda) enable modern, agile application development. By delivering flexibility, reliability, and cost-effectiveness, AWS empowers businesses to innovate and scale efficiently.
+
+
 <a href="https://github.com/abeleth/Abel.run.website-/blob/main/aws/README.md">
   <img src="https://github.com/user-attachments/assets/67b9e778-314c-4210-b769-2077b2f5351f" alt="aws" width="100" height="50"> 
 </a>

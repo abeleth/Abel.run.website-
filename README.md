@@ -8,6 +8,7 @@
 
 [DevOps](DevOps/README.md)
 
+Git is essential for DevOps engineers as it provides robust version control, enabling efficient collaboration and code management across distributed teams. It tracks changes in application code, scripts, and infrastructure-as-code (IaC) files, ensuring transparency, rollback capabilities, and auditability. Git integrates seamlessly with CI/CD pipelines, automating code builds, tests, and deployments to streamline workflows. Its branching and merging features support parallel development, while pull requests enable code reviews to maintain quality. Additionally, Git ensures redundancy through distributed repositories, aiding disaster recovery. By fostering consistency, automation, and collaboration, Git is a cornerstone of modern DevOps practices.
 
 <a href="https://github.com/abeleth/Abel.run.website-/blob/main/git/README.md">
   <img src="https://github.com/user-attachments/assets/19155cff-6ae9-4137-99ca-e0ed502c51e3" alt="git" width="100" height="50"> 

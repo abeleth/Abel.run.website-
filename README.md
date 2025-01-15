@@ -2,11 +2,11 @@
 =======
 🚀"Engineering seamless solutions, automating excellence, and driving innovation—one deployment at a time. Pushing the limits of what's possible in the ultimate DevOps career. #DevOpsDriven"
 
-<a href="https://github.com/abeleth/Abel.run.website-/blob/main/DevOps1/README.md">
-  <img src="https://github.com/user-attachments/assets/796643bc-2a54-449b-ba17-ffef71b8a2c6" alt="DevOps1" width="100" height="50"> 
+<a href="https://github.com/abeleth/Abel.run.website-/blob/main/Devops1/README.md">
+  <img src="https://github.com/user-attachments/assets/796643bc-2a54-449b-ba17-ffef71b8a2c6" alt="Devops1" width="100" height="50"> 
 </a>
 
-[DevOps](DevOps1/README.md)
+[DevOps](Devops1/README.md)
 
 Git is essential for DevOps engineers as it provides robust version control, enabling efficient collaboration and code management across distributed teams. It tracks changes in application code, scripts, and infrastructure-as-code (IaC) files, ensuring transparency, rollback capabilities, and auditability. Git integrates seamlessly with CI/CD pipelines, automating code builds, tests, and deployments to streamline workflows. Its branching and merging features support parallel development, while pull requests enable code reviews to maintain quality. Additionally, Git ensures redundancy through distributed repositories, aiding disaster recovery. By fostering consistency, automation, and collaboration, Git is a cornerstone of modern DevOps practices.
 

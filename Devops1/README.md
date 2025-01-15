@@ -21,3 +21,53 @@
 **Cost Efficiency:** Through automation and optimized infrastructure management (e.g., Infrastructure as Code), DevOps reduces operational costs by improving resource utilization and minimizing manual intervention.
 
 **Security and Compliance:** DevOps incorporates security practices early in the development process (often called DevSecOps), ensuring that security is integrated into the pipeline, rather than being an afterthought.
+
+**To be a successfil DevOps Engineer you neen this skills.** 
+
+**Technical Skills:**
+
+Cloud Computing (AWS, Google Cloud, Azure)
+
+Automation & Configuration Management (Terraform, Ansible, Chef, Puppet)
+
+CI/CD Tools (Jenkins, GitLab CI, CircleCI)
+
+Containerization & Orchestration (Docker, Kubernetes)
+
+Scripting & Programming (Python, Bash, Ruby)
+
+Monitoring & Logging (Prometheus, Grafana, ELK Stack)
+
+Version Control (Git)
+
+**Soft Skills:**
+
+Collaboration & Communication
+
+Problem-Solving
+
+Adaptability & Continuous Learning
+
+Time Management
+
+**DevOps Culture & Principles:**
+
+Agile Mindset
+
+Infrastructure as Code (IaC)
+
+Continuous Improvement
+
+Collaboration & Shared Responsibility
+
+**Security (DevSecOps):**
+
+Knowledge of integrating security in the development process.
+
+**Experience:**
+
+Hands-on experience in real-world projects and environments.
+
+**Certifications (Optional but Beneficial):**
+
+AWS, Google Cloud, Azure DevOps, Kubernetes, Docker, Terraform certifications.

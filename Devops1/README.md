@@ -5,7 +5,9 @@
 
 </details>
 
-**In DevOps what is expecting on achieving in the process?**
+<details>
+  <summary>In DevOps what is expecting on achieving in the process?</summary>
+
 
 **Faster Time to Market:** By automating manual processes and integrating development with operations, DevOps enables rapid delivery of software features, updates, and fixes, reducing the time between writing code and making it available to users.
 
@@ -25,7 +27,7 @@
 
 **Security and Compliance:** DevOps incorporates security practices early in the development process (often called DevSecOps), ensuring that security is integrated into the pipeline, rather than being an afterthought.
 
-
+</details>
 
 **To be a successfil DevOps Engineer you neen this skills.** 
 

@@ -22,6 +22,8 @@
 
 **Security and Compliance:** DevOps incorporates security practices early in the development process (often called DevSecOps), ensuring that security is integrated into the pipeline, rather than being an afterthought.
 
+
+
 **To be a successfil DevOps Engineer you neen this skills.** 
 
 **Technical Skills:**

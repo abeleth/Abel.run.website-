@@ -11,10 +11,10 @@
 Git is essential for DevOps engineers as it provides robust version control, enabling efficient collaboration and code management across distributed teams. It tracks changes in application code, scripts, and infrastructure-as-code (IaC) files, ensuring transparency, rollback capabilities, and auditability. Git integrates seamlessly with CI/CD pipelines, automating code builds, tests, and deployments to streamline workflows. Its branching and merging features support parallel development, while pull requests enable code reviews to maintain quality. Additionally, Git ensures redundancy through distributed repositories, aiding disaster recovery. By fostering consistency, automation, and collaboration, Git is a cornerstone of modern DevOps practices.
 
 <a href="https://github.com/abeleth/Abel.run.website-/blob/main/git/README.md">
-  <img src="https://github.com/user-attachments/assets/19155cff-6ae9-4137-99ca-e0ed502c51e3" alt="git" width="100" height="50"> 
+  <img src="https://github.com/user-attachments/assets/19155cff-6ae9-4137-99ca-e0ed502c51e3" alt="git1" width="100" height="50"> 
 </a>
 
-[Git](git/README.md)
+[Git](git1/README.md)
 
 
 AWS (Amazon Web Services) is a leading cloud computing platform that provides on-demand, scalable infrastructure and services to support diverse applications. It offers a wide range of tools, including computing power (EC2), storage (S3), databases (RDS, DynamoDB), networking, and machine learning. AWS is critical for DevOps workflows, with services like CloudFormation and Terraform for Infrastructure as Code, CodePipeline for CI/CD automation, and CloudWatch for monitoring and logging. Its container services (ECS, EKS, and Fargate) and serverless computing (Lambda) enable modern, agile application development. By delivering flexibility, reliability, and cost-effectiveness, AWS empowers businesses to innovate and scale efficiently.

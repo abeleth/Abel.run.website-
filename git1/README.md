@@ -12,7 +12,7 @@ git add .
 git commit -m "Update website"
 git push origin main
 
-git commit -m “Abel My website” →git add . →git push
+git commit -m “My website” →git add . →git push
 
 git push
 

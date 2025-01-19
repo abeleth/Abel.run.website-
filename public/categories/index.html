@@ -28,13 +28,17 @@
 
 
 
-<meta property="og:title" content="Categories" />
-<meta property="og:description" content="Text about my cool site" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/categories/" /><meta property="og:site_name" content="Abel Ketema" />
+<meta property="og:url" content="http://localhost:1313/categories/">
+  <meta property="og:site_name" content="Abel Ketema">
+  <meta property="og:title" content="Categories">
+  <meta property="og:description" content="Text about my cool site">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="Text about my cool site"/>
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Categories">
+  <meta name="twitter:description" content="Text about my cool site">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -311,10 +315,11 @@ Categories | Abel Ketema
                         <h5 class="card-title bg-transparent" title="AWS IAM user creation process.">AWS IAM user creation …</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p>Sign in to the AWS Management Console
-Log in to the AWS Management Console and navigate to the IAM service from the &ldquo;Security, Identity, &amp; Compliance&rdquo; section.
-Navigate to the &ldquo;Users&rdquo; Section
-In the IAM dashboard, click on Users in the left-hand menu. Click the Add users …</p>
+                        <p><p><strong>Sign in to the AWS Management Console</strong></p>
+<p>Log in to the AWS Management Console and navigate to the IAM service from the &ldquo;Security, Identity, &amp; Compliance&rdquo; section.</p>
+<p><strong>Navigate to the &ldquo;Users&rdquo; Section</strong></p>
+<p>In the IAM dashboard, click on Users in the left-hand menu.
+Click the Add users …</p></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
@@ -332,8 +337,21 @@ In the IAM dashboard, click on Users in the left-hand menu. Click the Add users 
                         <h5 class="card-title bg-transparent" title="How to create variable.">How to create variable.</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p>To create variable.
-export DB_USERNAME=dbuser export DB_PASSWORD=secretpwdvalue export DB_NAME=mydb printenv | grep DB echo $DB_NAME &#34;IF YOU WANT TO SEE&#34; export DB_NAME=NEW-DB-NAME &#34;To change new name&#34; if you want to do it permanently you have to use &#34;Vim&#34; vim .bashrc &#34;at …</p>
+                        <p><p>To create variable.</p>
+<pre tabindex="0"><code>
+export DB_USERNAME=dbuser       
+
+export DB_PASSWORD=secretpwdvalue
+
+export DB_NAME=mydb
+
+printenv | grep DB
+
+echo $DB_NAME  &#34;IF YOU WANT TO SEE&#34;
+
+export DB_NAME=NEW-DB-NAME    &#34;To change new name&#34;
+
+if you want to do it permanently you have to use &#34;Vim&#34; …</code></pre></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
@@ -351,7 +369,9 @@ export DB_USERNAME=dbuser export DB_PASSWORD=secretpwdvalue export DB_NAME=mydb 
                         <h5 class="card-title bg-transparent" title="Second post how to use them">Second post how to use …</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p>diff: To find the differences between two files, use diff followed by the file names. For example, diff file1.txt file2.txt will display the lines that differ between &ldquo;file1.txt&rdquo; and &ldquo;file2.txt&rdquo;. cmp: Use cmp followed by the two file names to check if two files are identical. …</p>
+                        <p><ol start="21">
+<li><strong><code>diff</code></strong>: To find the differences between two files, use <strong><code>diff</code></strong> followed by the file names. For example, <strong><code>diff file1.txt file2.txt</code></strong> will display the lines that differ between &ldquo;file1.txt&rdquo; and &ldquo;file2.txt&rdquo;.</li>
+<li><strong><code>cmp</code></strong>: Use <strong><code>cmp</code></strong> followed by the two file names to check if two files are …</li></ol></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">

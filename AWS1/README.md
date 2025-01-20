@@ -26,7 +26,7 @@ Add a tag with the key Role and the value DevOps
 
 Click on "Review" and then create on "Create user"
 
-How to use Terraform to creat IAM AWS user.
+### How to use Terraform to creat IAM AWS user.
 
 ```
 

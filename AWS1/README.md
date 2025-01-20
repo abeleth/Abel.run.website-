@@ -62,3 +62,41 @@ resource "aws_iam_user" "newuser" {
 }
 '''
 </details>
+
+<details>
+  <summary>How to create a password Policy in AWS?</summary>
+
+### Password Policy:
+
+Go to IAM service in AWS
+Click on "Account settings" under "Access management"
+Click on "Change password policy"
+Check "Enforce minimum password length" and set it to 8 characters
+Check "Require at least one number"
+Check "Prevent password reuse"
+Click on "Save changes"
+
+MFA:
+
+Click on the account name
+
+Click on "My Security Credentials"
+
+Expand "Multi-factor authentication (MFA)" and click on "Activate MFA"
+
+Choose one of the devices
+
+Follow the instructions to set it up and click on "Assign MFA"
+
+### How to do it on Terraform
+
+'''
+resource "aws_iam_account_password_policy" "strict" {
+  minimum_password_length        = 8
+  require_numbers                = true
+  allow_users_to_change_password = true
+  password_reuse_prevention      = 1
+}
+'''
+
+</details>

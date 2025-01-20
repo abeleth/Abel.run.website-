@@ -60,8 +60,10 @@ resource "aws_iam_user" "newuser" {
     Role = "DevOps"
   }
 }
-'''
+```
 </details>
+
+
 
 <details>
   <summary>How to create a password Policy in AWS?</summary>
@@ -90,13 +92,13 @@ Follow the instructions to set it up and click on "Assign MFA"
 
 ### How to do it on Terraform
 
-'''
+```
 resource "aws_iam_account_password_policy" "strict" {
   minimum_password_length        = 8
   require_numbers                = true
   allow_users_to_change_password = true
   password_reuse_prevention      = 1
 }
-'''
+```
 
 </details>

@@ -1,5 +1,5 @@
 <details>
-  <summary>How to create a user?</summary>
+  <summary>How to create a user in AWS?</summary>
 
 ### Solution
 

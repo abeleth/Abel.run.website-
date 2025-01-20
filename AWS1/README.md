@@ -64,7 +64,6 @@ resource "aws_iam_user" "newuser" {
 </details>
 
 
-<<<<<<< HEAD
 
 <details>
   <summary>How to create a password Policy in AWS?</summary>

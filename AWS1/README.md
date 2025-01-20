@@ -1,7 +1,9 @@
 <details>
   <summary>How to create a user?</summary>
 
-Solution
+### Solution
+
+
 Go to the AWS IAM service
 
 Click on "Users" in the right side menu (right under "Access Management")

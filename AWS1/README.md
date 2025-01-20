@@ -28,6 +28,8 @@ Click on "Review" and then create on "Create user"
 
 How to use Terraform to creat IAM AWS user.
 
+```
+
  
 resource "aws_iam_group_membership" "team" {
   name = "tf-testing-group-membership"
@@ -56,5 +58,5 @@ resource "aws_iam_user" "newuser" {
     Role = "DevOps"
   }
 }
-
+'''
 </details>

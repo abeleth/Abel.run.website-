@@ -84,7 +84,376 @@ Python is a versatile, high-level programming language widely used in DevOps for
 [Testing](Testing/README.md)
 
 
+# Installation
 
+# Git on **Linux Ubuntu**
+
+![image.png](attachment:19651e64-d772-4757-a46d-3c0eab097396:image.png)
+
+```yaml
+sudo apt update && sudo apt install -y git
+git --version
+
+```
+
+# AWS on **Linux Ubuntu**
+
+![image.png](attachment:0a1cfba0-114f-43ee-902f-4264ef98ae9c:image.png)
+
+```yaml
+aws --version
+sudo apt  install awscli
+aws --version
+
+```
+
+# Docker on **Linux Ubuntu**
+
+![image.png](attachment:da0fffa3-5c8b-46c4-81ba-efbdd0fbb735:image.png)
+
+```yaml
+sudo apt update
+sudo apt install -y [docker.io](http://docker.io/)
+sudo systemctl start docker
+sudo systemctl enable docker
+docker --version
+```
+
+docker login faild errorr on jenkins
+
+```yaml
+sudo su
+sudo usermod -aG docker jenkins
+sudo systemctl restart jenkins
+```
+
+# Java on **Linux Ubuntu**
+
+![image.png](attachment:84e135d1-f986-47ba-9e7c-72a7a3e45095:image.png)
+
+```yaml
+java -version
+sudo apt install openjdk-21-jre-headless
+java -version
+```
+
+# Python on **Linux Ubuntu**
+
+![image.png](attachment:e43596a5-1ac8-4732-ae6c-50aa671660ad:image.png)
+
+```yaml
+sudo apt update && sudo apt install -y python3 python3-pip python3-venv
+python3 --version
+sudo apt install python3-pip
+pip3 --version
+
+```
+
+### **Verify Installation:**
+
+Run these commands to check if the tools are installed properly:
+
+```yaml
+git --version
+docker --version
+terraform --version
+aws --version
+kubectl version --client
+```
+
+# Jenkins on **Linux Ubuntu**
+
+![image.png](attachment:3f13c89c-3f02-4515-a334-09b6afccecfd:image.png)
+
+```yaml
+sudo apt update
+sudo apt install openjdk-21-jdk
+java -version
+sudo apt update
+sudo systemctl start jenkins
+cat /Users/$(whoami)/. jenkins/secrets/initialAdminPassword
+```
+
+password→
+
+> [http://localhost:](http://localhost/)8080
+> 
+
+# **Install Jenkins for Automation:**
+
+- Install Jenkins on the EC2 instance to automate deployment: Install Java
+
+```
+sudo apt update
+sudo apt install fontconfig openjdk-17-jre
+java -version
+openjdk version "17.0.8" 2023-07-18
+OpenJDK Runtime Environment (build 17.0.8+7-Debian-1deb12u1)
+OpenJDK 64-Bit Server VM (build 17.0.8+7-Debian-1deb12u1, mixed mode, sharing)
+
+#jenkins
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+/etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins
+sudo systemctl start jenkins
+sudo systemctl enable jenkins
+```
+
+```yaml
+sudo service jenkins status
+```
+
+- Access Jenkins in a web browser using the public IP of your EC2 instance.
+    
+    publicIp:8080
+    
+
+sudo cat   `/var/lib/jenkins/secrets/initialAdminPassword`
+
+cat /Users/$(whoami)/. jenkins/secrets/initialAdminPassword
+
+ **Monitoring**
+
+# **Install Prometheus and Grafana:**
+
+![image.png](attachment:515ff146-2fc6-4b37-95e1-27e84ae3d3f1:image.png)
+
+Set up Prometheus and Grafana to monitor your application.
+
+**Installing Prometheus:**
+
+First, create a dedicated Linux user for Prometheus and download Prometheus:
+
+```
+sudo useradd --system --no-create-home --shell /bin/false prometheus
+wget https://github.com/prometheus/prometheus/releases/download/v2.47.1/prometheus-2.47.1.linux-amd64.tar.gz
+```
+
+Extract Prometheus files, move them, and create directories:
+
+```
+tar -xvf prometheus-2.47.1.linux-amd64.tar.gz
+cd prometheus-2.47.1.linux-amd64/
+sudo mkdir -p /data /etc/prometheus
+sudo mv prometheus promtool /usr/local/bin/
+sudo mv consoles/ console_libraries/ /etc/prometheus/
+sudo mv prometheus.yml /etc/prometheus/prometheus.yml
+```
+
+Set ownership for directories:
+
+```
+sudo chown -R prometheus:prometheus /etc/prometheus/ /data/
+```
+
+Create a systemd unit configuration file for Prometheus:
+
+```
+sudo nano /etc/systemd/system/prometheus.service
+```
+
+Add the following content to the `prometheus.service` file:
+
+```
+[Unit]
+Description=Prometheus
+Wants=network-online.target
+After=network-online.target
+
+StartLimitIntervalSec=500
+StartLimitBurst=5
+
+[Service]
+User=prometheus
+Group=prometheus
+Type=simple
+Restart=on-failure
+RestartSec=5s
+ExecStart=/usr/local/bin/prometheus \
+  --config.file=/etc/prometheus/prometheus.yml \
+  --storage.tsdb.path=/data \
+  --web.console.templates=/etc/prometheus/consoles \
+  --web.console.libraries=/etc/prometheus/console_libraries \
+  --web.listen-address=0.0.0.0:9090 \
+  --web.enable-lifecycle
+
+[Install]
+WantedBy=multi-user.target
+
+```
+
+Verify Prometheus's status:
+
+```
+sudo systemctl enable prometheus
+sudo systemctl start prometheus
+```
+
+```
+sudo systemctl status prometheus
+```
+
+# Grafana
+
+![image.png](attachment:85444dd8-bfdc-43f4-b7f6-c5254f60343d:image.png)
+
+**Install Grafana on Ubuntu 22.04 and Set it up to Work with Prometheus**
+
+**Step 1: Install Dependencies:**
+
+First, ensure that all necessary dependencies are installed:
+
+```
+sudo apt-get update
+sudo apt-get install -y apt-transport-https software-properties-common
+```
+
+**Step 2: Add the GPG Key:**
+
+Add the GPG key for Grafana:
+
+```
+wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
+```
+
+**Step 3: Add Grafana Repository:**
+
+Add the repository for Grafana stable releases:
+
+```
+echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
+```
+
+**Step 4: Update and Install Grafana:**
+
+Update the package list and install Grafana:
+
+```
+sudo apt-get update
+sudo apt-get -y install grafana
+```
+
+**Step 5: Enable and Start Grafana Service:**
+
+To automatically start Grafana after a reboot, enable the service:
+
+```
+sudo systemctl enable grafana-server
+```
+
+Then, start Grafana:
+
+```
+sudo systemctl start grafana-server
+```
+
+**Step 6: Check Grafana Status:**
+
+Verify the status of the Grafana service to ensure it's running correctly:
+
+```
+sudo systemctl status grafana-server
+```
+
+**Step 7: Access Grafana Web Interface:**
+
+Open a web browser and navigate to Grafana using your server's IP address. The default port for Grafana is 3000. For example:
+
+`http://<your-server-ip>:3000`
+
+# **Kubernetes**
+
+![image.png](attachment:b6317d53-1ce3-45ad-b755-76841a3c7528:image.png)
+
+**Create Kubernetes Cluster with Nodegroups**
+
+In this phase, you'll set up a Kubernetes cluster with node groups. This will provide a scalable environment to deploy and manage your applications.
+
+**Monitor Kubernetes with Prometheus**
+
+Prometheus is a powerful monitoring and alerting toolkit, and you'll use it to monitor your Kubernetes cluster. Additionally, you'll install the node exporter using Helm to collect metrics from your cluster nodes.
+
+**Install Node Exporter using Helm**
+
+To begin monitoring your Kubernetes cluster, you'll install the Prometheus Node Exporter. This component allows you to collect system-level metrics from your cluster nodes. Here are the steps to install the Node Exporter using Helm:
+
+1. Add the Prometheus Community Helm repository:
+    
+    ```
+    helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+    ```
+    
+2. Create a Kubernetes namespace for the Node Exporter:
+    
+    ```
+    kubectl create namespace prometheus-node-exporter
+    ```
+    
+3. Install the Node Exporter using Helm:
+    
+    ```
+    helm install prometheus-node-exporter prometheus-community/prometheus-node-exporter --namespace prometheus-node-exporter
+    ```
+    
+
+Add a Job to Scrape Metrics on nodeip:9001/metrics in prometheus.yml:
+
+Update your Prometheus configuration (prometheus.yml) to add a new job for scraping metrics from nodeip:9001/metrics. You can do this by adding the following configuration to your prometheus.yml file:
+
+```
+  - job_name: 'Netflix'
+    metrics_path: '/metrics'
+    static_configs:
+      - targets: ['node1Ip:9100']
+
+```
+
+Replace 'your-job-name' with a descriptive name for your job. The static_configs section specifies the targets to scrape metrics from, and in this case, it's set to nodeip:9001.
+
+### **Install Ansible (If Not Installed)**
+
+![image.png](attachment:37f898d9-7cd8-43d8-9350-4008f9ed35cd:image.png)
+
+```bash
+
+sudo apt update
+
+sudo apt update && sudo apt install ansible -y
+
+```
+
+### **Check Version**
+
+```bash
+b
+ansible --version
+
+```
+
+# DataDog
+
+![image.png](attachment:3bf04c67-99d7-474f-b152-8b3a4b22e251:image.png)
+
+To install Datadog on a Linux Ubuntu system, use the following command:
+
+```bash
+
+DD_API_KEY=<your_datadog_api_key> sudo -E bash -c "$(curl -L https://s3.amazonaws.com/dd-agent/scripts/install_script.sh)"
+
+```
+
+### Steps:
+
+1. Replace `<your_datadog_api_key>` with your actual Datadog API key. You can find this in your Datadog account under **Integrations > APIs**.
+2. This command:
+    - Downloads the Datadog installation script.
+    - Executes the script to install the Datadog Agent on your system.
+
+After installation, verify that the Datadog agent is running with:
 
 
 

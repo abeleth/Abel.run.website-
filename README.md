@@ -436,7 +436,8 @@ ansible --version
 
 # DataDog
 
-![image.png](attachment:3bf04c67-99d7-474f-b152-8b3a4b22e251:image.png)
+
+![image](https://github.com/user-attachments/assets/5e6f3868-ecb7-47c7-a935-2a78b0fbe443)
 
 To install Datadog on a Linux Ubuntu system, use the following command:
 

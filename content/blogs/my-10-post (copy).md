@@ -1,11 +1,11 @@
 +++
-title = 'How to Installation necessary devOps tools.'
+title = 'How to installation necessary devOps tools.'
 date = 2024-08-17T18:03:01-06:00
 draft = false
 +++
 
 
-How to Installation necessary devOps tools.
+How to installation necessary devOps tools.
 
 # Git on **Linux Ubuntu**
 

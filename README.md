@@ -88,7 +88,8 @@ Python is a versatile, high-level programming language widely used in DevOps for
 
 # Git on **Linux Ubuntu**
 
-![image.png](attachment:19651e64-d772-4757-a46d-3c0eab097396:image.png)
+![image](https://github.com/user-attachments/assets/8cb13eff-5d97-4035-9078-4d0352bb5652)
+
 
 ```yaml
 sudo apt update && sudo apt install -y git
@@ -98,7 +99,8 @@ git --version
 
 # AWS on **Linux Ubuntu**
 
-![image.png](attachment:0a1cfba0-114f-43ee-902f-4264ef98ae9c:image.png)
+
+![image](https://github.com/user-attachments/assets/0efdc521-0da6-40db-8568-c69133cb601b)
 
 ```yaml
 aws --version
@@ -108,8 +110,9 @@ aws --version
 ```
 
 # Docker on **Linux Ubuntu**
+![image](https://github.com/user-attachments/assets/4f4e97c3-2bf6-4b64-9d70-acf94a8fd93c)
 
-![image.png](attachment:da0fffa3-5c8b-46c4-81ba-efbdd0fbb735:image.png)
+
 
 ```yaml
 sudo apt update
@@ -129,7 +132,8 @@ sudo systemctl restart jenkins
 
 # Java on **Linux Ubuntu**
 
-![image.png](attachment:84e135d1-f986-47ba-9e7c-72a7a3e45095:image.png)
+
+![image](https://github.com/user-attachments/assets/d0c3a526-91c2-4a6f-a57e-38b10f5665cf)
 
 ```yaml
 java -version
@@ -139,7 +143,8 @@ java -version
 
 # Python on **Linux Ubuntu**
 
-![image.png](attachment:e43596a5-1ac8-4732-ae6c-50aa671660ad:image.png)
+
+![image](https://github.com/user-attachments/assets/cb67e341-2d4b-4ab8-8af8-9a951c946922)
 
 ```yaml
 sudo apt update && sudo apt install -y python3 python3-pip python3-venv
@@ -163,7 +168,8 @@ kubectl version --client
 
 # Jenkins on **Linux Ubuntu**
 
-![image.png](attachment:3f13c89c-3f02-4515-a334-09b6afccecfd:image.png)
+
+![image](https://github.com/user-attachments/assets/c08d9b8c-a3a6-4ffb-94dd-dce94f4fb926)
 
 ```yaml
 sudo apt update
@@ -176,7 +182,7 @@ cat /Users/$(whoami)/. jenkins/secrets/initialAdminPassword
 
 password→
 
-> [http://localhost:](http://localhost/)8080
+> [http://localhost:](http://localhost/) or IP 8080
 > 
 
 # **Install Jenkins for Automation:**
@@ -220,7 +226,7 @@ cat /Users/$(whoami)/. jenkins/secrets/initialAdminPassword
 
 # **Install Prometheus and Grafana:**
 
-![image.png](attachment:515ff146-2fc6-4b37-95e1-27e84ae3d3f1:image.png)
+![image](https://github.com/user-attachments/assets/92f0e6ef-cc65-4525-894e-49645ab8fa35)
 
 Set up Prometheus and Grafana to monitor your application.
 
@@ -299,7 +305,8 @@ sudo systemctl status prometheus
 
 # Grafana
 
-![image.png](attachment:85444dd8-bfdc-43f4-b7f6-c5254f60343d:image.png)
+
+![image](https://github.com/user-attachments/assets/d308e9d4-5d75-455e-9e1b-33e359979ff3)
 
 **Install Grafana on Ubuntu 22.04 and Set it up to Work with Prometheus**
 
@@ -366,8 +373,9 @@ Open a web browser and navigate to Grafana using your server's IP address. The d
 `http://<your-server-ip>:3000`
 
 # **Kubernetes**
+![image](https://github.com/user-attachments/assets/aaa7e04d-28b6-4559-b8b8-cba663234332)
 
-![image.png](attachment:b6317d53-1ce3-45ad-b755-76841a3c7528:image.png)
+
 
 **Create Kubernetes Cluster with Nodegroups**
 
@@ -416,7 +424,8 @@ Replace 'your-job-name' with a descriptive name for your job. The static_configs
 
 ### **Install Ansible (If Not Installed)**
 
-![image.png](attachment:37f898d9-7cd8-43d8-9350-4008f9ed35cd:image.png)
+
+![image](https://github.com/user-attachments/assets/78a497ea-564e-4f7a-8871-87f1609b6862)
 
 ```bash
 

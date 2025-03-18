@@ -187,6 +187,32 @@ params:
         - "AWS CodePipelines"
         - "Datadog"
         - "CI/CD"
+        - "Ansible"
+        - "Python"
+        - "Java"
+        - "gitlab"
+        - "Datadog"
+        - "Grafana"
+        - "Prometheus"
+        -"Terraform"
+        - "AWS"
+        - "Azure"
+        - "GCP"
+        - "Cloud Security"
+        - "Cloud Architecture"
+        - "Cloud Networking"
+        - "Cloud Performance Optimization"
+        - "Big Data"
+        - "AI/ML in Cloud"
+        - "JSON"
+        - "YAML"
+        - "HTML"
+        - "Hybrid & Multi-Cloud"
+        - "EC2, S3, IAM, Lambda, RDS, VPC, CloudWatch, ELB, EKS, ECS, DynamoDB"
+        - "ArgoCD"
+
+
+    
   # Experience
   experience:
     enable: false
@@ -261,6 +287,13 @@ params:
             - Implemented automated deployment pipelines, improving release cycles. 
             - Managed cloud infrastructure security, including IAM policies and VPC configurations.
             - Led the migration of on-premises infrastructure to [AWS/Azure/GCP].
+            - Cloud Architecture & Infrastructure – AWS, Azure, Google Cloud, Serverless Computing
+            - Infrastructure as Code (IaC) – Terraform, AWS CloudFormation, Ansible.
+            - DevOps & CI/CD – Jenkins, GitHub Actions, AWS CodePipeline, Kubernetes.
+            - Security & Compliance – IAM, Zero Trust, GDPR, SOC 2, Cloud Security Best Practices.
+            - Cloud Networking & Performance Optimization – VPCs, Load Balancers, CDN, Auto-Scaling.
+            - Big Data & AI/ML in Cloud – Data Lakes, AWS SageMaker, Google BigQuery
+
       - title: "Management Information System"
         school:
           name: "New Mexico State University"
@@ -273,7 +306,7 @@ params:
           - Managed CI/CD pipelines.
           - Optimized cloud resource allocation.
           - Monitored and troubleshooted cloud environments to ensure high availability and performance.
-          - Collaborated with development teams to integrate cloud services into applications.
+          - Collaborated with development teams to integrate cloud services into applications
         featuredLink:
           enable: true
           name: "My academic record"

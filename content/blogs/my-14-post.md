@@ -31,7 +31,7 @@ Real-time monitoring with Grafana and Prometheus ensured constant insight into t
 
  
 
- <img src="https://github.com/user-attachments/assets/6d769d43-6c30-4cbf-a06e-378d3337ff6b" alt="DevOps" width="800" height="350"> 
+ <img src="https://github.com/user-attachments/assets/6d769d43-6c30-4cbf-a06e-378d3337ff6b" alt="DevOps" width="900" height="500"> 
 
   <img src="https://github.com/user-attachments/assets/68041d85-dac9-4360-a7b3-b73c917504a1" alt="DevOps" width="800" height="350"> 
   <img src="https://github.com/user-attachments/assets/b9738f4f-08a9-4945-9920-b08034ae7e8d" alt="DevOps" width="800" height="350">

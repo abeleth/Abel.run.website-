@@ -42,7 +42,9 @@ Real-time monitoring with Grafana and Prometheus ensured constant insight into t
   <img src="https://github.com/user-attachments/assets/70907ff4-4cd2-4084-ae04-7e7ad49ff4c4" alt="DevOps" width="800" height="350"> 
   <img src="https://github.com/user-attachments/assets/c4ef291c-475d-47ed-9f38-d0b330671f45" alt="DevOps" width="800" height="350"> 
 
-### **Phase 1: Initial Setup and Deployment**
+
+
+**Phase 1: Initial Setup and Deployment**
 
 **Step 1: Launch EC2 (Ubuntu 22.04):**
 

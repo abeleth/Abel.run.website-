@@ -48,7 +48,7 @@ Menus:
     #   parent: dropdown
     #   weight: 2
 params:
-  title: "Abel Ketema key"
+  title: "Abel Ketema"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "Images/icons8-cloud-64.png"

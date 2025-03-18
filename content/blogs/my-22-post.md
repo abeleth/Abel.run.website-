@@ -51,6 +51,10 @@ Verify all settings on the Review page.
 Click Create user to
   <img src="https://github.com/user-attachments/assets/b6e0bc1a-c9b2-40a3-8ccb-549d186591ed" alt="DevOps" width="600" height="350"> 
 
+![image](https://github.com/user-attachments/assets/c2a8dae3-67a8-4bed-9307-b31a85a84058)
+
+  
+
 [def]: <Screenshot 2025-01-07 234543.png>
 [def2]: <../../themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png>
 [def3]: <../../themes/hugo-profile-new/images/Screenshot 2025-01-07 234543.png>

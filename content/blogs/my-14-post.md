@@ -53,7 +53,7 @@ Real-time monitoring with Grafana and Prometheus ensured constant insight into t
 - Provision an EC2 instance on AWS with Ubuntu 22.04.
 - Connect to the instance using SSH.
 
-**Step 2: Clone the Code:**
+**Step 2: Clone the Code:Abel**
 
 - Update all the packages and then clone the code.
 - Clone your application's code repository onto the EC2 instance:

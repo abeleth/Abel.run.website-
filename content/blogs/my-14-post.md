@@ -29,7 +29,7 @@ Automated security scanning at every stage of the pipeline (from code to contain
 Used Jenkins for smooth and repeatable deployments, powered by Docker
 Real-time monitoring with Grafana and Prometheus ensured constant insight into the app's performance
 
- <img src="https://github.com/user-attachments/assets/c2a8dae3-67a8-4bed-9307-b31a85a84058" alt="DevOps" width="800" height="350"> 
+ 
 
  <img src="https://github.com/user-attachments/assets/6d769d43-6c30-4cbf-a06e-378d3337ff6b" alt="DevOps" width="800" height="350"> 
 

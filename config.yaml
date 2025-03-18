@@ -207,9 +207,10 @@ params:
         - "JSON"
         - "YAML"
         - "HTML"
+        - "ArgoCD"
         - "Hybrid & Multi-Cloud"
         - "EC2, S3, IAM, Lambda, RDS, VPC, CloudWatch, ELB, EKS, ECS, DynamoDB"
-        - "ArgoCD"
+        
 
 
     

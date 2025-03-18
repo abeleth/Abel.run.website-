@@ -194,7 +194,7 @@ params:
         - "Datadog"
         - "Grafana"
         - "Prometheus"
-        -"Terraform"
+        - "Terraform"
         - "AWS"
         - "Azure"
         - "GCP"

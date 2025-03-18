@@ -6,7 +6,7 @@ draft = false
 
 🎉Deploying a Netflix Clone on Cloud with Jenkins: A DevSecOps Journey🎉
 
- <img src="https://github.com/user-attachments/assets/5f4e9c23-1848-4400-9833-d2cc11d5142d" alt="DevOps" width="500" height="700">
+ <img src="https://github.com/user-attachments/assets/5f4e9c23-1848-4400-9833-d2cc11d5142d" alt="DevOps" width="500" height="700" class="center-image">
 
 I’m excited to share a recent project I completed, where I combined my passion for DevOps, security, and cloud infrastructure to build a Netflix clone deployed on AWS using Jenkins, Docker and Terraform! 🎉
 

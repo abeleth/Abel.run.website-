@@ -4,7 +4,7 @@ date = 2024-08-17T18:08:04-06:00
 draft = false
 +++
 
-🎉Deploying a Netflix Clone on Cloud with Jenkins: A DevSecOps Journey🎉
+### 🎉Deploying a Netflix Clone on Cloud with Jenkins: A DevSecOps Journey🎉
 
  <img src="https://github.com/user-attachments/assets/5f4e9c23-1848-4400-9833-d2cc11d5142d" alt="DevOps" width="500" height="700" class="center-image">
 

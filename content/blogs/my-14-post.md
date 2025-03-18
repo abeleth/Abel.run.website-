@@ -14,11 +14,13 @@ SonarQube & Trivy for code and image vulnerability scanning
 Jenkins for CI/CD automation
 Prometheus & Grafana for monitoring and visualization
 API Integration with TMDB for movie data 🎥
+
 📌 Phases:
 Initial Setup: Provisioned an EC2 instance, set up Docker, and deployed the Netflix clone using Docker containers.
 Security: Integrated SonarQube and Trivy for static and dynamic security scanning.
 CI/CD Pipeline: Set up Jenkins to automate the deployment process, integrated security tools, and Docker.
 Monitoring: Installed Prometheus and Grafana to monitor the health of the application and the infrastructure.
+
 🔑 Key Takeaways:
 Automated security scanning at every stage of the pipeline (from code to container images)
 Used Jenkins for smooth and repeatable deployments, powered by Docker

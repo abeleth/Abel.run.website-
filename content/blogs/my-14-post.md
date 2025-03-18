@@ -6,7 +6,7 @@ draft = false
 
 🎉Deploying a Netflix Clone on Cloud with Jenkins: A DevSecOps Journey🎉
 
- <img src="https://github.com/user-attachments/assets/c2a8dae3-67a8-4bed-9307-b31a85a84058" alt="DevOps" width="800" height="400"> 
+ <img src="https://github.com/user-attachments/assets/c2a8dae3-67a8-4bed-9307-b31a85a84058" alt="DevOps" width="900" height="500">
 
 I’m excited to share a recent project I completed, where I combined my passion for DevOps, security, and cloud infrastructure to build a Netflix clone deployed on AWS using Jenkins, Docker and Terraform! 🎉
 
@@ -33,16 +33,16 @@ Real-time monitoring with Grafana and Prometheus ensured constant insight into t
 
  <img src="https://github.com/user-attachments/assets/6d769d43-6c30-4cbf-a06e-378d3337ff6b" alt="DevOps" width="900" height="500"> 
 
-  <img src="https://github.com/user-attachments/assets/68041d85-dac9-4360-a7b3-b73c917504a1" alt="DevOps" width="800" height="350"> 
-  <img src="https://github.com/user-attachments/assets/b9738f4f-08a9-4945-9920-b08034ae7e8d" alt="DevOps" width="800" height="350">
-  <img src="https://github.com/user-attachments/assets/b9738f4f-08a9-4945-9920-b08034ae7e8d" alt="DevOps" width="800" height="350"> 
+  <img src="https://github.com/user-attachments/assets/68041d85-dac9-4360-a7b3-b73c917504a1" alt="DevOps" width="900" height="500">
+  <img src="https://github.com/user-attachments/assets/b9738f4f-08a9-4945-9920-b08034ae7e8d" alt="DevOps" width="900" height="500">
+  <img src="https://github.com/user-attachments/assets/b9738f4f-08a9-4945-9920-b08034ae7e8d" alt="DevOps" width="900" height="500">
 
-  <img src="https://github.com/user-attachments/assets/7cbfd9b7-4fae-4cb5-940f-a0daffd7ec56" alt="DevOps" width="800" height="350"> 
+  <img src="https://github.com/user-attachments/assets/7cbfd9b7-4fae-4cb5-940f-a0daffd7ec56" alt="DevOps" width="900" height="500">
 
-  <img src="https://github.com/user-attachments/assets/1818a179-f69d-495e-9088-36a46de98a4a" alt="DevOps" width="800" height="350"> 
+  <img src="https://github.com/user-attachments/assets/1818a179-f69d-495e-9088-36a46de98a4a" alt="DevOps" width="900" height="500"> 
 
  
-  <img src="https://github.com/user-attachments/assets/c4ef291c-475d-47ed-9f38-d0b330671f45" alt="DevOps" width="800" height="350"> 
+  <img src="https://github.com/user-attachments/assets/c4ef291c-475d-47ed-9f38-d0b330671f45" alt="DevOps" width="900" height="500">
 
 
 
@@ -780,4 +780,4 @@ To deploy an application with ArgoCD, you can follow these steps, which I'll out
 1. **Cleanup AWS EC2 Instances:**
     - Terminate AWS EC2 instances that are no longer needed.
 
-  <img src="https://github.com/user-attachments/assets/70907ff4-4cd2-4084-ae04-7e7ad49ff4c4" alt="DevOps" width="800" height="350"> 
+  <img src="https://github.com/user-attachments/assets/70907ff4-4cd2-4084-ae04-7e7ad49ff4c4" alt="DevOps" width="900" height="500">

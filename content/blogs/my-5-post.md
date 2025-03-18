@@ -1,9 +1,8 @@
 +++
-title = 'Deploying a Netflix'
-date = 2025-03-18T18:08:04-06:00
+title = 'Deploying a Netflix.'
+date = 2024-08-17T18:13:50-06:00
 draft = false
 +++
-
 
 ### 🎉Deploying a Netflix Clone on Cloud with Jenkins: A DevSecOps Journey🎉
 

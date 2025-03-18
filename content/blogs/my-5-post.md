@@ -1,6 +1,6 @@
 +++
 title = 'Deploying a Netflix.'
-date = 2024-08-17T18:13:50-06:00
+date = 2025-08-17T18:13:50-06:00
 draft = false
 +++
 

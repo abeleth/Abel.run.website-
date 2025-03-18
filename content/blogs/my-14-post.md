@@ -46,7 +46,7 @@ Real-time monitoring with Grafana and Prometheus ensured constant insight into t
 
 
 
-**Phase 1: Initial Setup and Deployment**
+### **Phase 1: Initial Setup and Deployment**
 
 **Step 1: Launch EC2 (Ubuntu 22.04):**
 

@@ -8,6 +8,8 @@ draft = false
 
  <img src="https://github.com/user-attachments/assets/5f4e9c23-1848-4400-9833-d2cc11d5142d" alt="DevOps" width="500" height="700" class="center-image">
 
+
+
 I’m excited to share a recent project I completed, where I combined my passion for DevOps, security, and cloud infrastructure to build a Netflix clone deployed on AWS using Jenkins, Docker and Terraform! 🎉
 
 🛠 Tech Stack:
@@ -29,21 +31,6 @@ Automated security scanning at every stage of the pipeline (from code to contain
 Used Jenkins for smooth and repeatable deployments, powered by Docker
 Real-time monitoring with Grafana and Prometheus ensured constant insight into the app's performance
 
- 
-
- <img src="https://github.com/user-attachments/assets/6d769d43-6c30-4cbf-a06e-378d3337ff6b" alt="DevOps" width="900" height="500"> 
-
-  <img src="https://github.com/user-attachments/assets/68041d85-dac9-4360-a7b3-b73c917504a1" alt="DevOps" width="900" height="500">
-  <img src="https://github.com/user-attachments/assets/b9738f4f-08a9-4945-9920-b08034ae7e8d" alt="DevOps" width="900" height="500">
-  <img src="https://github.com/user-attachments/assets/b9738f4f-08a9-4945-9920-b08034ae7e8d" alt="DevOps" width="900" height="500">
-
-  <img src="https://github.com/user-attachments/assets/7cbfd9b7-4fae-4cb5-940f-a0daffd7ec56" alt="DevOps" width="900" height="500">
-
-  <img src="https://github.com/user-attachments/assets/1818a179-f69d-495e-9088-36a46de98a4a" alt="DevOps" width="900" height="500"> 
-
- 
-  <img src="https://github.com/user-attachments/assets/c4ef291c-475d-47ed-9f38-d0b330671f45" alt="DevOps" width="900" height="500">
-
 
 
 ### **Phase 1: Initial Setup and Deployment**
@@ -52,6 +39,12 @@ Real-time monitoring with Grafana and Prometheus ensured constant insight into t
 
 - Provision an EC2 instance on AWS with Ubuntu 22.04.
 - Connect to the instance using SSH.
+  
+
+<img src="https://github.com/user-attachments/assets/68041d85-dac9-4360-a7b3-b73c917504a1" alt="DevOps" width="900" height="500">
+
+
+<img src="https://github.com/user-attachments/assets/b9738f4f-08a9-4945-9920-b08034ae7e8d" alt="DevOps" width="900" height="500">
 
 **Step 2: Clone the Code:**
 
@@ -168,7 +161,8 @@ docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
     - Access Jenkins in a web browser using the public IP of your EC2 instance.
         
         publicIp:8080
-        
+
+<img src="https://github.com/user-attachments/assets/6d769d43-6c30-4cbf-a06e-378d3337ff6b" alt="DevOps" width="900" height="500">  
 2. **Install Necessary Plugins in Jenkins:**
 
 Goto Manage Jenkins →Plugins → Available Plugins →
@@ -650,6 +644,7 @@ Open a web browser and navigate to Grafana using your server's IP address. The d
 
 `http://<your-server-ip>:3000`
 
+<img src="https://github.com/user-attachments/assets/7cbfd9b7-4fae-4cb5-940f-a0daffd7ec56" alt="DevOps" width="900" height="500">
 You'll be prompted to log in to Grafana. The default username is "admin," and the default password is also "admin."
 
 **Step 8: Change the Default Password:**
@@ -781,3 +776,8 @@ To deploy an application with ArgoCD, you can follow these steps, which I'll out
     - Terminate AWS EC2 instances that are no longer needed.
 
   <img src="https://github.com/user-attachments/assets/70907ff4-4cd2-4084-ae04-7e7ad49ff4c4" alt="DevOps" width="900" height="500">
+
+  <img src="https://github.com/user-attachments/assets/1818a179-f69d-495e-9088-36a46de98a4a" alt="DevOps" width="900" height="500"> 
+
+ 
+  <img src="https://github.com/user-attachments/assets/c4ef291c-475d-47ed-9f38-d0b330671f45" alt="DevOps" width="900" height="500">

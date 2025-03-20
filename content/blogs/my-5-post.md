@@ -10,7 +10,7 @@ draft = false
 
 
 
-I’m excited to share a recent project I completed, where I combined my passion for DevOps, security, and cloud infrastructure to build a Netflix clone deployed on AWS using Jenkins, Docker and Terraform! 🎉
+I’m excited to share a recent project I completed, where I combined my passion for DevOps, security, and cloud infrastructure to build a Netflix clone deployed on AWS using Jenkins, Docker and Terraform! 
 
 🛠 Tech Stack:
 AWS EC2 with Ubuntu 

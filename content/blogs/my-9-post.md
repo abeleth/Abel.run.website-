@@ -5,7 +5,7 @@ draft = false
 +++
 
 
-### Frontend & Backend
+
 
 ### 🚨 Just Completed a Game-Changing DevSecOps Project on AWS! 🚨
 I’m thrilled to share that I successfully deployed a three-tier web application on AWS EKS using cutting-edge DevSecOps practices and automation! This was an amazing opportunity to dive deep into AWS services, Terraform, ArgoCD, Jenkins, Prometheus, Grafana, SonarQube, and much more.

@@ -1,3 +1,13 @@
++++
+title = 'Frontend & Backend'
+date = 2024-08-17T18:03:01-06:00
+draft = false
++++
+
+
+### Frontend & Backend
+
+
 Steps:
 IAM User Setup: Create an IAM user with the necessary permissions for EKS, S3, DynamoDB, ECR, and EC2.
 Terraform & AWS CLI Installation: Install Terraform and AWS CLI on your local machine and configure AWS CLI with IAM credentials.

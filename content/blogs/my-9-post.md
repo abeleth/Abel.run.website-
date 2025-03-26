@@ -352,9 +352,10 @@ kubectl get secrets -n three-tier
 Now, we will install argoCD.
 
 To do that, create a separate namespace for it and apply the argocd configuration for installation.
-
+```
  kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.4.7/manifests/install.yaml
+```
 All pods must be running, to validate run the below command
 
 kubectl get pods -n argocd

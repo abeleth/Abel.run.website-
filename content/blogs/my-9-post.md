@@ -95,7 +95,7 @@ lock-files name will be DynamoDB table, and the partition key will be LockID.
 
 Clone the git repo. 
 
-git clone https://github.com/codewithmuh/three-tier-devsecops-project.git
+git clone https://github.com/abeleth/New-three-tier-devsecops-project.git
 Go to the folder jenkins-server-terraform in the terminal.
 
 Just make sure to make changes in backend.tf file. Update the name of the s3 bucket and dynamo db name.

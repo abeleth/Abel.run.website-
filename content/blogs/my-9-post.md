@@ -424,10 +424,10 @@ Follow me for more insights on LinkedIn, Medium, and GitHub
 
 
 
- <img src="https://github.com/user-attachments/assets/7954556c-7e26-414a-a5b9-c0fd628d221d" alt="DevOps" width="500" height="700" class="center-image">
- <img src="https://github.com/user-attachments/assets/0da4fb4d-cd4e-47eb-9339-3a45e3749cee" alt="DevOps" width="500" height="700" class="center-image">
-  <img src="https://github.com/user-attachments/assets/b58a5fea-6885-40d6-979c-4185f25e0c12" alt="DevOps" width="500" height="700" class="center-image">
-<img src="https://github.com/user-attachments/assets/a1567448-0551-41e5-b068-2c94cf0a3d41" alt="DevOps" width="500" height="700" class="center-image">
-<img src="https://github.com/user-attachments/assets/258bed17-f275-45ee-9cbf-c8651e89aaeb" alt="DevOps" width="500" height="700" class="center-image">
-<img src="https://github.com/user-attachments/assets/f6bf7a48-5104-44bd-83ed-95344ecd509d" alt="DevOps" width="500" height="700" class="center-image">
-<img src="https://github.com/user-attachments/assets/d539fd0a-bf48-44a9-b696-8d8575c437a1" alt="DevOps" width="500" height="700" class="center-image">
+ <img src="https://github.com/user-attachments/assets/7954556c-7e26-414a-a5b9-c0fd628d221d" alt="DevOps" width="900" height="500" class="center-image">
+ <img src="https://github.com/user-attachments/assets/0da4fb4d-cd4e-47eb-9339-3a45e3749cee" alt="DevOps" width="900" height="500" class="center-image">
+  <img src="https://github.com/user-attachments/assets/b58a5fea-6885-40d6-979c-4185f25e0c12" alt="DevOps" width="900" height="500" class="center-image">
+<img src="https://github.com/user-attachments/assets/a1567448-0551-41e5-b068-2c94cf0a3d41" alt="DevOps" width="900" height="500" class="center-image">
+<img src="https://github.com/user-attachments/assets/258bed17-f275-45ee-9cbf-c8651e89aaeb" alt="DevOps" width="900" height="500" class="center-image">
+<img src="https://github.com/user-attachments/assets/f6bf7a48-5104-44bd-83ed-95344ecd509d" alt="DevOps" width="900" height="500" class="center-image">
+<img src="https://github.com/user-attachments/assets/d539fd0a-bf48-44a9-b696-8d8575c437a1" alt="DevOps" width="900" height="500" class="center-image">

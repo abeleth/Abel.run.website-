@@ -7,7 +7,7 @@ draft = false
 
 ### Frontend & Backend
 
-### *🚨 Just Completed a Game-Changing DevSecOps Project on AWS! 🚨
+### 🚨 Just Completed a Game-Changing DevSecOps Project on AWS! 🚨
 I’m thrilled to share that I successfully deployed a three-tier web application on AWS EKS using cutting-edge DevSecOps practices and automation! This was an amazing opportunity to dive deep into AWS services, Terraform, ArgoCD, Jenkins, Prometheus, Grafana, SonarQube, and much more.
 
 Here’s what I’ve accomplished:
@@ -27,7 +27,7 @@ Automation & IaC: End-to-end Infrastructure as Code and CI/CD pipelines 🚀
 
  This project taught me how to build a production-grade, automated pipeline that is secure, resilient, and scalable. It’s all about optimizing for speed, security, and scalability in the modern cloud-first world!
  
-### *Steps:
+### Steps:
 IAM User Setup: Create an IAM user with the necessary permissions for EKS, S3, DynamoDB, ECR, and EC2.
 Terraform & AWS CLI Installation: Install Terraform and AWS CLI on your local machine and configure AWS CLI with IAM credentials.
 S3 Bucket and DynamoDB Table: Set up an S3 bucket for Terraform state files and a DynamoDB table for state locking.

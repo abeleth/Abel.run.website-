@@ -81,13 +81,15 @@ To install AWS CLI, You can Visit AWS installtion page.
 
 
 After installation, you can verify installation with these two commands 
-
+```
 terraform --version
 aws --version
+
+```
 Then configure aws CLI using the given blow commands, Use Access and secret key from the CSV file you download in the IAM User step.
-
+```
 aws configure
-
+```
 
 
 3. S3 Bucket and DynamoDB Table
@@ -104,44 +106,48 @@ lock-files name will be DynamoDB table, and the partition key will be LockID.
 
 
 Clone the git repo. 
-
+```
 git clone https://github.com/abeleth/New-three-tier-devsecops-project.git
 Go to the folder jenkins-server-terraform in the terminal.
-
+```
 Just make sure to make changes in backend.tf file. Update the name of the s3 bucket and dynamo db name.
 
 Next, we have to run the command to create .pem file for our Jenkins instance. will be used to ssh the server.
 
-
-
- aws ec2 create-key-pair --key-name devsecops-project --query "KeyMaterial" --output text > devsecops-project.pem
+```
+ aws ec2 create-key-pair --key-name devsecops-project --
+query "KeyMaterial" --output text > devsecops-project.pem
+```
 Now run this command to create a Jenkins server.
-
+```
 terraform init
 terraform validate
 terraform apply
+```
 Now ssh to your server :
 
 Make sure you run these commands from the folder where your pem file exist.
-
+```
 chmod 400 "devsecops-project.pem"
-
 ssh -i "devsecops-project.pem" ubuntu@35.92.246.29
+```
 configure aws on the Jenkins server(EC2 Instance). As you did for your local machine.
-
+```
 aws configure
+```
 5. Installing Plugins on Jenkins
 Open the EC2-IP:8080 in the browser. 
 
 You can get the password of Jenkins
-
+```
  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
  Install recommended plugins.
 
 After creating Jenkins accounts, go to manage Jenkins -> plugins -> available plugins
 
 We have to install all these mentioned plugins.
-
+```
 AWS Credentials
 AWS Steps
 Docker plugins
@@ -149,6 +155,7 @@ Eclipse Temurin installer
 NodeJS
 OWASP Dependency-Check,
 SonarQube Scanner.
+```
 6. SonarQube Setup:
 Open Sonarrqube in the browser. 
 
@@ -187,7 +194,7 @@ Login to ECR on the Jenkins server, using the ECR push command.
 Got to Manage Jenkins -> Credentials.
 
 We have to add here a total of 7 Credentials.
-
+```
 aws-key
 
 GITHUB (username & Password)
@@ -203,7 +210,7 @@ ECR_REPO_BACKEND
 
 ACCOUNT_ID (aws account id)
 
-
+```
 Now We have to configure the installed plugins. (important)
 
 In Tools, We have to configure JDK, sonar-scanner, nodejs, DP-Check, and docker.
@@ -216,34 +223,44 @@ Provide the name as it is, then in the Server URL copy the sonarqube public IP (
 
 8. EKS Cluster Deployment
 We have to create EKS Cluster using the below commands.
-
- eksctl create cluster --name three-tier-k8s-eks-cluster --region us-west-2 --node-type t2.medium --nodes-min 2 --nodes-max 2
+```
+ eksctl create cluster --name three-tier-k8s-eks-cluster --
+region us-west-2 --node-type t2.medium --nodes-min 2 --
+nodes-max 2
+```
 Once the cluster is ready, you can validate if the nodes are ready or not.
-
+```
 kubectl get nodes
+```
 Now, we will configure the Load Balancer on our EKS because our application will have an ingress controller.
 
 Download the policy for the LoadBalancer prerequisite.
-
+```
 curl -O https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.5.4/docs/install/iam_policy.json
+```
 Create the IAM policy using the below command
-
+```
 aws iam create-policy --policy-name AWSLoadBalancerControllerIAMPolicy --policy-document file://iam_policy.json
+```
 Create OIDC Provider
-
+```
 eksctl utils associate-iam-oidc-provider --region=us-west-2 --cluster=three-tier-k8s-eks-cluster --approve
+```
 Create a Service Account by using below command and replace your account ID with your one
-
+```
 eksctl create iamserviceaccount --cluster=three-tier-k8s-eks-cluster --namespace=kube-system --name=aws-load-balancer-controller --role-name AmazonEKSLoadBalancerControllerRole --attach-policy-arn=arn:aws:iam::<your-account-id>:policy/AWSLoadBalancerControllerIAMPolicy --approve --region=us-west-2
+```
 Run the below command to deploy the AWS Load Balancer Controller
 
 helm repo add eks https://aws.github.io/eks-charts
 helm repo update eks
+```
 helm install aws-load-balancer-controller eks/aws-load-balancer-controller -n kube-system --set clusterName=three-tier-k8s-eks-cluster --set serviceAccount.create=false --set serviceAccount.name=aws-load-balancer-controller
+```
 After 2-3 minutes, run the command below to check whether your pods are running or not.
-
+```
 kubectl get deployment -n kube-system aws-load-balancer-controller
-
+```
 
 
 
@@ -257,19 +274,23 @@ Steps to Install and Configure Prometheus and Grafana on Kubernetes
 Step 1: Add Helm Repositories
 
 Add Helm Stable Chart Repository
-
+```
 helm repo add stable https://charts.helm.sh/stable
+```
 2. Add Prometheus Community Helm Repository
-
+```
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+```
 Step 2: Create a Namespace for monitoring
-
+```
 kubectl create namespace monitoring
+```
 Step 3: Install Prometheus with Grafana using Helm
 
 Install the kube-prometheus-stack chart, which includes both Prometheus and Grafana:
-
+```
 helm install stable prometheus-community/kube-prometheus-stack -n monitoring
+```
 This command deploys Prometheus and Grafana as part of the kube-prometheus-stack in the prometheus namespace on your EC2 instance.
 
 Step 4: Verify Prometheus Installation
@@ -278,8 +299,9 @@ Check the Prometheus pods:
 
 kubectl get pods -n monitoring
 Check the Prometheus services:
-
+```
 kubectl get svc -n monitoring
+```
 Since Grafana is deployed along with Prometheus, there is no need for separate Grafana installation.
 
 Step 5: Expose Prometheus and Grafana to External Access
@@ -290,8 +312,9 @@ NodePort
 LoadBalancer
 
 Exposing Prometheus via LoadBalancer:
-
+```
 kubectl edit svc stable-kube-prometheus-sta-prometheus -n monitoring
+```
 Save the file. The service should now have a load balancer with an external IP to access Prometheus.
 
 Exposing Grafana via LoadBalancer:
@@ -344,22 +367,25 @@ To access the argoCD, copy the LoadBalancer DNS CNAME record and hit on your fav
 Now, we need to get the password for our argoCD server to perform the deployment.
 
 To do that, we have a pre-requisite which is jq. Install it by the command below.
-
+```
 sudo apt install jq -y
+```
+```
 export ARGOCD_SERVER=$(kubectl get svc argocd-server -n argocd -o json | jq -r '.status.loadBalancer.ingress[0].hostname') && export ARGO_PWD=$(kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d) && echo "ARGOCD_SERVER: $ARGOCD_SERVER" && echo "ARGO_PWD: $ARGO_PWD"
+```
 Next will deploy our Three-Tier Application using ArgoCD
 
 As our repository is private. So, we need to configure the Private Repository in ArgoCD.
 
 Then We have to set up applications.
-
+```
 1. database
 2. backend
 3. frontend
 4. frontend-ingress
 5. backend-ingress
 
-
+```
 11. DNS Configuration 
 This step do not include any commands, you can watch it in my video.
 12. Conclusion
@@ -371,15 +397,17 @@ Extra: Clean up Everything. If you did this project for testing. To avoid costs 
 
 
 First, you must delete your EKS Cluster, Run this command on your Jenkins server.
-
+```
 eksctl delete cluster --name three-tier-k8s-eks-cluster --region us-west-2 --wait --timeout 30m
+```
 Note: If you encounter any errors related to the load balancer, you will need to delete the frontend and backend load balancers first, then delete your cluster. You can use ChatGPT to learn how to delete your load balancer.
 
 When the cluster is deleted successfully.
 
 Then On the Local machine, destroy the infrastructure in your terminal at folder jenkins-server-terraform
-
+```
 terraform destroy
+```
 Finally, you can delete your S3 bucket, DynamoDB, and your IAM user.
 
 Please remember to delete the personal token created on GitHub.

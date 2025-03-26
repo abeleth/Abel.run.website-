@@ -27,7 +27,7 @@ Conclusion: Test the end-to-end deployment, verify integrations, and ensure that
 
 
 
-1. IAM User Setup
+### 1. IAM User Setup
 Create an IAM user with the necessary permissions for EKS, S3, DynamoDB, ECR, and EC2.
 
 On AWS Console, search I am, and click Users.
@@ -73,7 +73,7 @@ Download the file for later use of the secret key and access key.
 
 We have done now with IAM user creation.
 
-2. Terraform & AWS CLI Installation
+### 2. Terraform & AWS CLI Installation
 To install Terraform, You can visit Terraform official website.
 
 To install AWS CLI, You can Visit AWS installtion page.
@@ -92,7 +92,7 @@ aws configure
 ```
 
 
-3. S3 Bucket and DynamoDB Table
+### 3. S3 Bucket and DynamoDB Table
 As S3 Bucket and Dynamo DB are required for Terraform's backend state, you can create them by watching my video. 
 
 S3 bucket can be any, give any unique name to it.
@@ -102,7 +102,7 @@ lock-files name will be DynamoDB table, and the partition key will be LockID.
 
 
 
-4. Jenkins EC2 Server Setup with Terraform
+### 4. Jenkins EC2 Server Setup with Terraform
 
 
 Clone the git repo. 
@@ -135,7 +135,7 @@ configure aws on the Jenkins server(EC2 Instance). As you did for your local mac
 ```
 aws configure
 ```
-5. Installing Plugins on Jenkins
+### 5. Installing Plugins on Jenkins
 Open the EC2-IP:8080 in the browser. 
 
 You can get the password of Jenkins
@@ -156,7 +156,7 @@ NodeJS
 OWASP Dependency-Check,
 SonarQube Scanner.
 ```
-6. SonarQube Setup:
+### 6. SonarQube Setup:
 Open Sonarrqube in the browser. 
 
 http://<jenkins-server-public-ip>:9090
@@ -175,7 +175,7 @@ create a webhook on the sonarqube dashboard. (http://<jenkins-ec2-server-public-
 
 
 
-7. Amazon ECR Repositories
+### 7. Amazon ECR Repositories
 Create two repositories, one for the backend and front end.
 
 
@@ -221,7 +221,7 @@ Search for SonarQube installations
 
 Provide the name as it is, then in the Server URL copy the sonarqube public IP (same as Jenkins) with port 9000 select the sonar token that we have added recently, and click on Apply & Save.
 
-8. EKS Cluster Deployment
+### 8. EKS Cluster Deployment
 We have to create EKS Cluster using the below commands.
 ```
  eksctl create cluster --name three-tier-k8s-eks-cluster --
@@ -264,7 +264,7 @@ kubectl get deployment -n kube-system aws-load-balancer-controller
 
 
 
-9. Prometheus and Grafana Installation and Configuration
+### 9. Prometheus and Grafana Installation and Configuration
 What is Grafana?
 
 Grafana is an open-source platform for visualization and analytics. It allows you to query, visualize, alert on, and explore metrics from various data sources.
@@ -334,17 +334,20 @@ step of the Grafana dashboard with Prometheus as explained in the video.
 
 
 
-9. Jenkins Pipelines (Frontend & Backend)
+### 9. Jenkins Pipelines (Frontend & Backend)
 This step do not include any commands, you can watch it in my video.
 
 
-10. ArgoCD Installation & Application Deployment
+### 10. ArgoCD Installation & Application Deployment
+```
 kubectl create namespace three-tier
+```
+```
 kubectl create secret generic ecr-registry-secret \
   --from-file=.dockerconfigjson=${HOME}/.docker/config.json \
   --type=kubernetes.io/dockerconfigjson --namespace three-tier
 kubectl get secrets -n three-tier
-
+```
 
 Now, we will install argoCD.
 
@@ -386,9 +389,9 @@ Then We have to set up applications.
 5. backend-ingress
 
 ```
-11. DNS Configuration 
+### 11. DNS Configuration 
 This step do not include any commands, you can watch it in my video.
-12. Conclusion
+### 12. Conclusion
 We have set up a Persistent Volume and a Persistent Volume Claim. This means that if the pods are deleted, the data will not be lost, as it will be stored on the host machine. 
 
 

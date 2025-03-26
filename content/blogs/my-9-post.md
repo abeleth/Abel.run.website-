@@ -7,8 +7,22 @@ draft = false
 
 ### Frontend & Backend
 
-
-Steps:
+### *🚨 Just Completed a Game-Changing DevSecOps Project on AWS! 🚨
+I’m thrilled to share that I successfully deployed a three-tier web application on AWS EKS using cutting-edge DevSecOps practices and automation! This was an amazing opportunity to dive deep into AWS services, Terraform, ArgoCD, Jenkins, Prometheus, Grafana, SonarQube, and much more.
+Here’s what I’ve accomplished:
+Pipeline Automation: Streamlined build, scan, and deployment of Docker images using Jenkins, Trivy, and SonarQube 🛠️.
+Cluster Monitoring: Implemented real-time monitoring with Prometheus and Grafana 🖥️.
+GitOps with ArgoCD: Automated application deployments from Git repositories 🎯.
+Production-Ready Infrastructure: Scalable, secure, and efficient infrastructure using Terraform and AWS 🏗️.
+This project was a perfect opportunity to blend Cloud Engineering with DevOps to build something secure, scalable, and reliable from the ground up.
+💡 Key Technologies:
+AWS: EC2, EKS, S3, DynamoDB, ECR
+DevSecOps Tools: Terraform, Jenkins, Trivy, SonarQube, Prometheus, Grafana, ArgoCD
+Automation & IaC: End-to-end Infrastructure as Code and CI/CD pipelines 🚀
+🔑 Why This Matters:
+ This project taught me how to build a production-grade, automated pipeline that is secure, resilient, and scalable. It’s all about optimizing for speed, security, and scalability in the modern cloud-first world!
+ 
+### *Steps:
 IAM User Setup: Create an IAM user with the necessary permissions for EKS, S3, DynamoDB, ECR, and EC2.
 Terraform & AWS CLI Installation: Install Terraform and AWS CLI on your local machine and configure AWS CLI with IAM credentials.
 S3 Bucket and DynamoDB Table: Set up an S3 bucket for Terraform state files and a DynamoDB table for state locking.

@@ -283,7 +283,7 @@ params:
           name: "Campbellsville University"
           url: "https://www.campbellsville.edu/my-account/"
         date: "2024 - 2025"
-        GPA: "3.8 out of 4.0"
+        GPA: "4.0 out of 4.0"
         content: |-
             - Deployed containerized applications using Docker and Kubernetes.
             - Implemented automated deployment pipelines, improving release cycles. 
@@ -301,7 +301,7 @@ params:
           name: "New Mexico State University"
           url: "https://www.nmsu.edu/"
         date: "2017 - 2020"
-        GPA: "4.0 out of 4.0"
+        GPA: "3.5 out of 4.0"
         content: |-
           - Designed and implemented scalable cloud architectures using [AWS/Azure/GCP.]
           - Automated cloud infrastructure provisioning using Terraform and Ansible.

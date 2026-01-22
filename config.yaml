@@ -316,11 +316,11 @@ params:
       - title: "Community Callege"
         school:
           name: "Colby Community Callege"
-          url: "https://github.com/user-attachments/assets/bfda0860-0704-4269-85cf-3fe92c01ac78"
+          url: "https://www.colbycc.edu/"
         GPA: "3.8 out of 4.0"
         featuredLink:
           enable: true
-          url: "https://www.colbycc.edu/"
+          url: "https://www.abelketema.com"
   # Achievements
   achievements:
     enable: false
